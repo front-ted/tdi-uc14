@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Projeto executivo: premissas, elaboração, compatibilização com complementares, peças gráficas (plantas, cortes,
+    vistas, ampliações)</title>
+
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet" />
+  <link href="../template/css/cores.css" rel="stylesheet" />
+  <link href="../template/css/modal-100.css" rel="stylesheet" />
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css" />
+  <link href="../template/css/sncload.css" rel="stylesheet" />
+  <link href="../template/css/magnific-popup.css" rel="stylesheet" />
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet" />
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet" />
+  <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet" />
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  <!--[if gte mso 9
+      ]><xml>
+        <mso:CustomDocumentProperties>
+          <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
+            msdt:dt="string"
+            >Paulo Ricardo Soveral
+            Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
+          >
+          <mso:Order msdt:dt="string">46914400.0000000</mso:Order>
+          <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author
+            msdt:dt="string"
+            >Paulo Ricardo Soveral
+            Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author
+          >
+          <mso:ContentTypeId msdt:dt="string"
+            >0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId
+          >
+        </mso:CustomDocumentProperties>
+      </xml><!
+    [endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo" />
+  <!-- /MARCA D´ÁGUA -->
+
+  <div id="sncloader" class="over-loader">
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+
+  <header id="topo" class="senac no-print">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de Interiores</h1>
+      <div id="logo-senac">
+        <img src="../template/images/logo-senac.png" alt="logo do senac" />
+      </div>
+    </div>
+    <div id="sombra"></div>
+  </header>
+
+  <!-- Menu -->
+  <input type="checkbox" id="menu" name="menu" class="menu-checkbox no-print" aria-hidden="true">
+  <div class="menu no-print" aria-hidden="true">
+    <div id="style-2" class="scroll-bar">
+      <div class="force-overflow">
+        <label class="menu-toggle no-print" for="menu"><span>Toggle</span></label>
+        <ul class="eng-item-menu">
+          <li class="item1">
+            <a href="#t1" class="fundo-item">Projeto executivo</a>
+            <hr>
+          </li>
+          <li class="item2">
+            <a href="#t2" class="fundo-item">Premissas do projeto</a>
+            <hr>
+          </li>
+          <li class="item3">
+            <a href="#t3" class="fundo-item">Elaboração do projeto</a>
+            <hr>
+          </li>
+          <li class="item4">
+            <a href="#t4" class="fundo-item">Compatibilização</a>
+            <hr>
+          </li>
+          <li class="item5">
+            <a href="#t5" class="fundo-item">Peças gráficas</a>
+            <hr>
+          </li>
+          <li class="item6">
+            <a href="#t6" class="fundo-item">Encerramento</a>
+            <hr>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="booklet" class="">
+    <header class="no-print container margem-botao">
+      <!-- BTO IMPRIMIR -->
+
+      <!-- /BTO IMPRIMIR -->
+    </header>
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <section class="paginas">
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <div class="pagina">
+        <div class="bloco bloco1">
+          <div class="container">
+            <div class="grupo-imprimir no-print">
+              <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+                <span class="fa fa-print"></span> <span>Imprimir</span>
+              </button>
+            </div>
+            <h2 id="t1">Projeto executivo: premissas, elaboração, compatibilização com complementares, peças gráficas
+              (plantas, cortes, vistas, ampliações)</h2>
+            <p> Neste conteúdo, você terá acesso à fase final de desenvolvimento de um projeto: o <b>projeto
+                executivo</b>. O
+              objetivo é explicar o que é essa fase, sua importância, a diferença entre projeto executivo e projeto
+              conceitual e quais são os elementos gráficos que compõem a entrega final.</p>
+
+            <p>O projeto executivo é a última etapa de um projeto de <i>design</i> de interiores. Nele, são
+              desenvolvidos todos os
+              materiais necessários para garantir que a execução seja fiel ao planejamento inicial. Por isso, é uma fase
+              crucial, em que se detalha tudo para assegurar a correta implementação. Entenda melhor essa fase e seus
+              componentes a partir de agora.</p>
+            <h2>O que é um projeto executivo</h2>
+            <p>Um projeto executivo de <i>design</i> de interiores é a fase final e detalhada do processo de projeto, na
+              qual
+              todas as especificações técnicas e materiais, os acabamentos e as medidas são minuciosamente descritos e
+              representados em desenhos e documentos. Ele funciona como um guia ou manual que orienta todos os
+              profissionais envolvidos na obra, transformando em realidade o que foi idealizado pelo <i>designer</i>.
+              Além
+              disso, é usado para realizar diversos orçamentos de mão de obra, materiais, móveis e para coordenar todas
+              as fases da construção e decoração. Segundo a NBR 6492/1994, o projeto executivo “apresenta, de forma
+              clara e organizada, todas as informações necessárias à execução da obra e todos os serviços inerentes”
+              (ABNT, 1994). </p>
+            <img src="imgs/img01.png" class="center-block img-responsive hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="imgs/img01.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                src="imgs/img01.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              <i>Designer</i> de interiores no computador
+              <br>
+              Fonte: Pexels (2024)
+            </p>
+            <p class="acessivel no-print">
+              Fotografia de uma mulher branca, de cabelo curto na cor castanha, usando óculos. Ela está fazendo
+              anotações em uma folha de papel enquanto olha para a tela de um computador, no qual está a planta baixa de
+              um ambiente.
+            </p>
+            <p>O projeto executivo é uma fase técnica que só se inicia após a aprovação formal do projeto conceitual
+              pelos clientes. Com essa aprovação, desenvolve-se todo o material de detalhamento necessário para orientar
+              os diferentes profissionais envolvidos na obra, como marceneiros, gesseiros, pintores, eletricistas e
+              instaladores de piso. Nessa etapa, todas as especificações técnicas, materiais, acabamentos e medidas, são
+              detalhadamente descritas e representadas em desenhos e documentos. </p>
+            <img src="imgs/img02.png" class="center-block img-responsive hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="imgs/img02.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                src="imgs/img02.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">Desenvolvimento do projeto executivo
+              <br>
+              Fonte: Pexels (2024)
+            </p>
+            <p class="acessivel no-print">Fotografia das mãos de duas pessoas, que estão escrevendo em papel que contém
+              projeto executivo de design de interiores e há um mostruário de tintas (leque de cores) sobre os projetos.
+            </p>
+            <p>Esse conjunto de documentos serve como um guia completo para a execução da obra, garantindo que todos os
+              profissionais tenham acesso a informações claras e necessárias, assegurando que o ambiente seja executado
+              conforme idealizado pelo <i>designer</i>. Como o projeto executivo está diretamente ligado à viabilidade
+              da obra,
+              ele é essencial para a realização de orçamentos precisos e a coordenação das fases de construção e
+              decoração, alinhando o resultado final com a visão do <i>designer</i> e as expectativas do cliente. </p>
+            <p>Talvez você esteja se perguntando qual é a diferença entre o projeto conceitual e o projeto executivo.
+              Eles são fases distintas no processo criativo do <i>design</i> de interiores, cada uma com características
+              e
+              objetivos específicos. O projeto conceitual é a fase inicial, na qual se exploram e se definem as ideias e
+              os conceitos principais. Nessa etapa, o <i>designer</i> trabalha em estreita colaboração com o cliente
+              para
+              entender suas demandas, gerando diretrizes criativas que orientam a visão geral do projeto. O projeto
+              conceitual resulta na produção de <i>moodboard</i>, plantas baixas preliminares, definição da paleta de
+              cores,
+              escolha preliminar de móveis e materiais, além da elaboração de croquis e renderizações que ajudam a
+              visualizar o espaço proposto. </p>
+            <img src="imgs/img03.png" class="center-block img-responsive hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="imgs/img03_zoom.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                src="imgs/img03.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              <i>Leiaute</i> de projeto conceitual
+              <br>
+              Fonte: Senac EAD (2024)
+            </p>
+            <p class="acessivel no-print">Duas representações do mesmo ambiente, uma cozinha, em vista superior. À
+              esquerda, a cozinha está representada em planta baixa, desenho planificado em tons de cinza, com cotas dos
+              espaços de circulação. À direita, a vista superior é representada com perspectiva, mostrando a
+              profundidade do ambiente. Essa representação é colorida e não tem cotas dos espaços de circulação. Nas
+              duas representações, setas estão indicando cada um dos mobiliários de forma genérica, como: bancada,
+              adega, churrasqueira, mesa de jantar.</p>
+            <p>Já o projeto executivo é a fase das definições finais e dos detalhamentos técnicos, implementando na
+              prática o projeto conceitual. Nessa etapa, todos os elementos do projeto são especificados com precisão.
+              Por exemplo, um móvel não é apenas indicado preliminarmente, mas detalhado com medidas exatas, marca, nome
+              do modelo e tipo de acabamento, se necessário. Também são especificados materiais, acabamentos,
+              revestimentos, leiaute de iluminação, elétrica e hidráulica. É crucial fornecer todas as informações
+              necessárias para que não haja dúvidas na hora da execução. O projeto executivo deve servir como um manual
+              completo para os profissionais da construção e fornecedores, garantindo que a execução ocorra conforme o
+              planejado. </p>
+            <img src="imgs/img04.png" class="center-block img-responsive hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="imgs/img04_zoom.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                src="imgs/img04.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Planta baixa projeto executivo
+              <br>
+              Fonte: Senac EAD (2024)
+            </p>
+            <p class="acessivel no-print">Planta baixa técnica com três ambientes: cozinha, área de serviços/lavanderia
+              e banheiro. O desenho das paredes e dos mobiliários estão em tons de cinza. Todas as dimensões de todos os
+              móveis estão cotadas e as cotas estão na cor vermelha. Cada móvel e equipamento têm uma linha com um texto
+              indicando a especificação técnica detalhada, como, por exemplo, bancada tipo ilha, em marcenaria, e tampo
+              em granito preto São Gabriel, com base em rodízios.</p>
+            <p>A fase do projeto executivo exige tempo e muita atenção e pode necessitar de várias revisões. Portanto,
+              ao planejar o prazo do projeto, considere uma boa parte do tempo para a elaboração do projeto executivo. O
+              projeto conceitual e o projeto executivo são etapas distintas, mas interdependentes. O projeto conceitual
+              é a fase de inspiração e definição da visão, enquanto o projeto executivo é a fase de implementação e
+              detalhamento técnico. Juntos, eles garantem que o <i>design</i> seja esteticamente agradável, funcional e
+              executável, permitindo que o espaço idealizado se torne realidade e atenda às expectativas dos clientes.
+            </p>
+            <p>Portanto, enquanto o projeto conceitual foca na criatividade e na visualização do espaço, ajudando na
+              compreensão das expectativas do cliente e no atendimento a elas, o projeto executivo se concentra na
+              viabilidade técnica e na coordenação de todos os aspectos da obra. Ele garante que a visão do
+              <i>designer</i>
+              seja transformada em realidade, servindo como uma referência detalhada para os profissionais que atuarão
+              durante a execução da obra.
+            </p>
+            <h2 id="t2">Premissas do projeto executivo</h2>
+            <p>Como abordado até aqui, o projeto executivo de <i>design</i> de interiores é uma fase crucial para
+              transformar
+              conceitos criativos em planos detalhados e executáveis. Nessa fase, considera-se cada detalhe do projeto
+              para garantir que todas as expectativas do cliente sejam atendidas. Para isso, é preciso trabalhar com
+              três premissas: (1) identificação e análise das necessidades do cliente, (2) levantamento de dados e
+              informações relevantes e (3) estudo de viabilidade técnica e econômica. A seguir, confira cada uma dessas
+              premissas: </p>
+            <p class="no-print" aria-hidden="true">Clique ou toque para visualizar o conteúdo. </p>
+            <div class="no-print painel-premissa" aria-hidden="true">
+              <button type="button" class="btn-premissa bt-premissa1" data-toggle="modal"
+                data-target="#premissa1"></button>
+              <button type="button" class="btn-premissa bt-premissa2" data-toggle="modal"
+                data-target="#premissa2"></button>
+              <button type="button" class="btn-premissa bt-premissa3" data-toggle="modal"
+                data-target="#premissa3"></button>
+            </div>
+            <div class="acessivel print">
+              <h4>Identificação e análise das necessidades do cliente</h4>
+              <p>Apesar de o <i>briefing</i> com os clientes já ter ocorrido e de suas necessidades gerais para o
+                projeto
+                conceitual já terem sido compreendidas, no momento do projeto executivo é preciso identificar
+                ainda mais especificamente essas necessidades e incluir também aquelas que talvez nem o próprio
+                cliente tenha verbalizado. Para isso, deve-se manter uma comunicação ainda mais estreita para que
+                se entendam detalhes da rotina e características pessoais, como altura, hábitos e estilos de vida.
+                Esses aspectos influenciam diretamente no detalhamento e na escolha de materiais e acabamentos.
+              </p>
+              <p>Por exemplo, ao projetar um <i>closet</i>, pode-se personalizar cada espaço para o cliente,
+                planejando
+                alturas adequadas para facilitar o acesso aos itens de uso cotidiano e colocando os itens de menor
+                uso em locais menos acessíveis. É possível ajustar cabideiros à altura das roupas e criar
+                sapateiras adequadas aos tamanhos dos sapatos. </p>
+              <h4>Levantamento de dados e informações relevantes</h4>
+              <p>Para as definições técnicas, soluções e especificações que serão desenvolvidas no projeto
+                executivo, é essencial realizar um levantamento meticuloso de informações. Isso inclui medidas
+                precisas, condições estruturais, sistemas elétricos e hidráulicos existentes, além de considerar
+                possíveis restrições legais ou regulatórias. O levantamento completo de dados e informações
+                relevantes é crucial para evitar surpresas durante a execução da obra e garantir que todas as
+                alterações propostas sejam viáveis dentro das condições do espaço existente. </p>
+              <h4>Estudo de viabilidade técnica e econômica</h4>
+              <p>Com o avanço das definições e especificações técnicas do projeto, é crucial avaliar a viabilidade
+                tanto técnica quanto econômica do que foi proposto inicialmente de forma conceitual. Nessa etapa,
+                é necessário analisar escolhas como materiais, técnicas de construção e mão de obra necessária.
+                Por exemplo, decidir entre fechamento de vãos com alvenaria convencional ou <i>drywall</i> afeta tanto a
+                estrutura quanto a necessidade de mão de obra especializada, já que o <i>drywall</i> requer
+                profissionais
+                com habilidades específicas.</p>
+              <p>Além disso, é fundamental considerar o orçamento disponível para a execução completa da obra,
+                conforme definido pelo cliente. O <i>designer</i> de interiores deve colaborar com outros profissionais
+                necessários, como engenheiros, arquitetos e especialistas, para garantir a viabilidade do projeto
+                tanto em termos técnicos quanto dentro dos limites financeiros estipulados pelo cliente. </p>
+            </div>
+            <h2 id="t3">Elaboração do projeto executivo</h2>
+            <p>A elaboração do projeto executivo ocorre em várias etapas e algumas começam antes mesmo da fase final do
+              projeto, ou seja, antes do próprio projeto executivo. Todas essas etapas são essenciais para um
+              desenvolvimento adequado e para garantir que o projeto executivo atenda às necessidades e expectativas dos
+              clientes, além das exigências técnicas para a execução da obra. </p>
+            <p>Deve-se começar pelo <i>briefing</i> e a programação do desenvolvimento, seguidos pelo desenvolvimento do
+              conceito. Com o conceito geral do projeto definido, passa-se então para a elaboração de desenhos técnicos
+              e detalhamentos. Em seguida, realiza-se a especificação de materiais e acabamentos. Por último, com toda a
+              documentação gráfica e descritiva pronta, pode-se solicitar os orçamentos necessários e planejar o
+              cronograma de execução da obra. </p>
+            <p>A seguir, confira mais detalhadamente cada uma dessas etapas: </p>
+            <p class="no-print" aria-hidden="true">Clique ou toque para visualizar o conteúdo. </p>
+            <div class="row mb-5 no-print" aria-hidden="true">
+              <div class="col-md-4">
+                <div class="list-group" id="list-tab">
+                  <a class="list-group-item active" id="list-home-list" data-toggle="tab"
+                    href="#programacao"><i>Briefing</i> e programação</a>
+                  <a class="list-group-item" id="list-profile-list" data-toggle="tab" href="#conceito">Desenvolvimento
+                    de conceito</a>
+                  <a class="list-group-item" id="list-messages-list" data-toggle="tab" href="#detalhamentos">Desenhos
+                    técnicos e detalhamentos</a>
+                  <a class="list-group-item" id="list-settings-list" data-toggle="tab" href="#acabamentos">Especificação
+                    de materiais e acabamentos</a>
+                  <a class="list-group-item" id="list-settings-list" data-toggle="tab" href="#execucao">Orçamento e
+                    cronograma de execução</a>
+                </div>
+              </div>
+              <div class="col-md-8 no-print" aria-hidden="true">
+                <div class="tab-content">
+                  <div class="tab-pane fade in active" id="programacao">
+                    <p>O <i>briefing</i> é fundamental no início do processo criativo. Já conversamos sobre essa etapa
+                      em
+                      outras unidades curriculares do curso, lembra? Durante uma entrevista estratégica com o cliente, o
+                      designer busca compreender os desejos, preferências, estilo de vida e expectativas do cliente.
+                      Essas informações são essenciais para entender o uso pretendido do espaço, preferências estéticas,
+                      funcionalidades desejadas e qualquer restrição, como alergias a materiais específicos, além de
+                      conhecer o orçamento disponível para a obra. </p>
+                    <img src="imgs/img05.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/img05.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/img05.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      Entrevista com o cliente
+                      <br>
+                      Fonte: Pexels (2024)
+                    </p>
+                    <p class="acessivel no-print">Fotografia em que um casal, formado por um homem ruivo e uma mulher de
+                      origem oriental, conversam com uma mulher branca de cabelos castanhos longos, de terno, com uma
+                      prancheta na mão. Eles conversam de pé em uma cozinha residencial.</p>
+                    <p>No desenvolvimento do projeto executivo, as informações coletadas no <i>briefing</i> são de
+                      extrema
+                      importância. Elas permitem que o projeto atenda às necessidades específicas do cliente em cada
+                      detalhe. Isso inclui não apenas o leiaute geral do ambiente, mas também aspectos detalhados como
+                      alturas e distâncias funcionais às medidas do cliente e escolha de materiais que atendam
+                      esteticamente e funcionalmente às atividades planejadas para o espaço. </p>
+                    <p>Portanto, ao estabelecer uma compreensão clara e detalhada das necessidades do cliente desde o
+                      início, o <i>designer</i> de interiores cria uma base sólida para todas as fases subsequentes do
+                      projeto.
+                      Esse processo cuidadoso assegura que o projeto final esteja alinhado com as expectativas do
+                      cliente, resultando em um ambiente que seja esteticamente apropriado e funcionalmente eficiente.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade" id="conceito">
+                    <p>Na etapa de desenvolvimento do conceito, a ideia geral do projeto, que surge das informações
+                      coletadas no <i>briefing</i> e de várias fontes de inspiração, começa a ganhar forma e direção.
+                      Essa fase
+                      estabelece a base para todas as decisões subsequentes no projeto. Aqui, são definidas a essência
+                      estética do projeto e a paleta de cores, também são exploradas as melhores opções de leiaute até
+                      se
+                      chegar ao resultado aprovado pelo cliente.</p>
+                    <p>Para concretizar o conceito, são utilizadas ferramentas visuais como painéis criativos e plantas
+                      baixas preliminares, que ajudam a entender qual leiaute será mais adequado. Além disso, imagens
+                      renderizadas em perspectiva são essenciais para facilitar o entendimento do espaço pelos clientes,
+                      já que muitos têm dificuldade em visualizar apenas utilizando plantas baixas. As imagens
+                      renderizadas proporcionam uma sensação de realidade, facilitando a apresentação do conceito e do
+                      ambiente proposto.</p>
+                    <img src="imgs/img06.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/img06.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/img06.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      <i>Designer</i> de interiores desenvolvendo o conceito de projeto
+                      <br>
+                      Fonte: Pexels (2024)
+                    </p>
+                    <p class="acessivel no-print">
+                      Fotografia de uma mulher branca, de cabelos longos e grisalhos, sentada, trabalhando em sua mesa
+                      de escritório de frente para o computador. Atrás dela, um mural contém diversas fotografias e
+                      imagens com referências visuais. Ela segura os seus óculos na mão direita e parece estar
+                      elaborando ideias, olhando para cima.
+                    </p>
+                    <p>A definição final do conceito por parte do cliente é crucial para avançar para o projeto
+                      executivo. É neste momento que o leiaute é finalizado, com o posicionamento dos móveis e uma
+                      definição preliminar dos revestimentos. Essa definição servirá como base para o projeto executivo,
+                      portanto, qualquer alteração por parte do cliente deve ser solicitada antes da formalização do
+                      projeto conceitual aprovado. </p>
+                  </div>
+                  <div class="tab-pane fade" id="detalhamentos">
+                    <p>Com o projeto conceitual aprovado, chega o momento de desenvolver os desenhos que serão guias
+                      para a execução no canteiro de obras e para todos os fornecedores envolvidos, garantindo que o
+                      ambiente seja construído conforme foi idealizado.</p>
+                    <p>Até o desenvolvimento do conceito, trabalha-se em estreita colaboração com o cliente, utilizando
+                      desenhos e imagens com informações mais realistas e menos técnicas para facilitar o entendimento.
+                      A partir desta fase, o trabalho torna-se mais interno ao escritório, focado no <i>designer</i> de
+                      interiores de forma individualizada, sem participação direta do cliente. É o momento de realizar
+                      toda a diagramação técnica do projeto, elaborando desenhos detalhados como plantas, cortes, vistas
+                      e fachadas. Também são incluídos desenhos detalhados de elementos específicos, como o desenho de
+                      um rodapé, os espaçamentos de uma sanca ou o acabamento de um puxador de gaveta, que não são
+                      visíveis nos desenhos gerais e exigem atenção detalhada para os fornecedores. </p>
+                    <img src="imgs/img07.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/img07.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/img07.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      <i>Designer</i> de interiores desenvolvendo os desenhos técnicos
+                      <br>
+                      Fonte: Pexels (2024)
+                    </p>
+                    <p class="acessivel no-print">
+                      Mulher branca, de cabelo longo castanho, sentada em frente a um computador. Na tela do computador
+                      está aberto um projeto renderizado de uma sala e os detalhamentos técnicos do projeto, com os
+                      desenhos dos cortes e das elevações. Ela está folheando um livro e mexendo no mouse do computador.
+                    </p>
+                    <p>Em resumo, criar todos os desenhos necessários com informações completas garante o entendimento
+                      preciso de todos os fornecedores envolvidos em cada etapa da construção do ambiente conforme
+                      idealizado e elimina qualquer margem para dúvidas. Este é o momento de produzir o guia completo de
+                      execução do ambiente projetado. Mais adiante, neste conteúdo, você terá informações e exemplos
+                      adicionais sobre as peças gráficas que compõem um projeto executivo. </p>
+                  </div>
+                  <div class="tab-pane fade" id="acabamentos">
+                    <p>A especificação de materiais e acabamentos é uma etapa crucial na qual todos os materiais
+                      utilizados no projeto são definidos, desde revestimentos até móveis e elementos decorativos. Cada
+                      item deve ser selecionado com cuidado para garantir qualidade, durabilidade e estética desejadas.
+                      As especificações precisam incluir detalhes como fabricante, cores, texturas e quantidades
+                      necessárias.</p>
+                    <p>Esta fase demanda tempo significativo, muitas vezes equivalente ao necessário para o
+                      desenvolvimento completo do projeto. Durante a especificação, o <i>designer</i> deve garantir
+                      precisão em
+                      todos os aspectos. Por exemplo, ao escolher um porcelanato como revestimento, é essencial
+                      considerar se será usado em piso ou parede, a atividade que será realizada sobre ele, o índice de
+                      abrasão (PI), o coeficiente de atrito, o acabamento adequado, além de modelo, cor, textura e
+                      instruções de instalação, como cor e espaçamento do rejunte. Também é necessário especificar a
+                      quantidade de material e a medida em metros quadrados (m²) necessária para cobrir a área
+                      designada. </p>
+                    <img src="imgs/img08.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/img08.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/img08.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      Especificação de materiais e acabamentos
+                      <br>
+                      Fonte: Pexels (2024)
+                    </p>
+                    <p class="acessivel no-print">
+                      Fotografia de uma mesa redonda com tampo circular em mármore branco, com pequenas amostras
+                      quadradas de pisos, mármores e granitos. Contém ainda um celular, uma trena, uma caneta e um
+                      notebook. Sentadas em torno da mesa há duas pessoas. Não é possível vê-las, mas é possível ver as
+                      pernas de uma delas e as mãos de outra sobre a mesa. Essa última pessoa faz anotações em um papel
+                      utilizando um lápis grafite comum.
+                    </p>
+                    <p>A precisão na especificação é fundamental, pois erros podem resultar em atrasos e custos
+                      adicionais. Por exemplo, especificar uma quantidade insuficiente de revestimento pode exigir mão
+                      de obra extra e atrasar o cronograma. Além da estética, a escolha dos materiais influencia o
+                      conforto térmico e acústico, a facilidade de limpeza, a resistência e durabilidade do ambiente.
+                      Materiais inadequados, como pisos escorregadios em áreas molhadas ou superfícies porosas na
+                      cozinha, podem causar problemas de segurança e manutenção. Durante essa fase, amostras de
+                      materiais fornecidas pelos fabricantes são recursos valiosos que auxiliam nas escolhas e no
+                      processo de especificação. </p>
+                  </div>
+                  <div class="tab-pane fade" id="execucao">
+                    <p>A última etapa é a elaboração dos orçamentos e do cronograma de execução. Com base nas
+                      especificações, nos detalhamentos e nos desenhos técnicos elaborados, é possível solicitar os
+                      orçamentos necessários para materiais, serviços e mão de obra para a execução completa da obra.
+                    </p>
+                    <img src="imgs/img09.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/img09.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/img09.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      <i>Designer</i> de interiores desenvolvendo orçamento e cronograma
+                      <br>
+                      Fonte: Pexels (2024)
+                    </p>
+                    <p class="acessivel no-print">
+                      Fotografia de uma mulher que veste camisa preta de bolinhas brancas e segura uma pasta rosa. Ela
+                      está sentada a uma mesa, sobre a qual estão diversos desenhos técnicos espalhados.
+                    </p>
+                    <p>Estando todo o material técnico preparado, chega o momento de desenvolver um cronograma de
+                      execução detalhado. Esse cronograma deve definir as diferentes fases da obra e os prazos a serem
+                      cumpridos em cada uma delas. Ele é essencial para garantir que a obra seja concluída dentro do
+                      prazo e do orçamento previstos, permitindo a coordenação eficiente dos serviços e dos
+                      profissionais envolvidos. </p>
+                    <p>Essa etapa requer conhecimentos específicos e será abordada com mais detalhes na unidade
+                      curricular <b>Gerenciar execução de projetos de <i>design</i> de interiores</b>. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h4><i>Briefing</i> e programação</h4>
+              <p>O <i>briefing</i> é fundamental no início do processo criativo. Já conversamos sobre essa etapa
+                em
+                outras unidades curriculares do curso, lembra? Durante uma entrevista estratégica com o cliente, o
+                designer busca compreender os desejos, preferências, estilo de vida e expectativas do cliente.
+                Essas informações são essenciais para entender o uso pretendido do espaço, preferências estéticas,
+                funcionalidades desejadas e qualquer restrição, como alergias a materiais específicos, além de
+                conhecer o orçamento disponível para a obra. </p>
+              <img src="imgs/img05.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img05.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img05.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Entrevista com o cliente
+                <br>
+                Fonte: Pexels (2024)
+              </p>
+              <p class="acessivel no-print">Fotografia em que um casal, formado por um homem ruivo e uma mulher de
+                origem oriental, conversam com uma mulher branca de cabelos castanhos longos, de terno, com uma
+                prancheta na mão. Eles conversam de pé em uma cozinha residencial.</p>
+              <p>No desenvolvimento do projeto executivo, as informações coletadas no <i>briefing</i> são de
+                extrema
+                importância. Elas permitem que o projeto atenda às necessidades específicas do cliente em cada
+                detalhe. Isso inclui não apenas o leiaute geral do ambiente, mas também aspectos detalhados como
+                alturas e distâncias funcionais às medidas do cliente e escolha de materiais que atendam
+                esteticamente e funcionalmente às atividades planejadas para o espaço. </p>
+              <p>Portanto, ao estabelecer uma compreensão clara e detalhada das necessidades do cliente desde o
+                início, o <i>designer</i> de interiores cria uma base sólida para todas as fases subsequentes do
+                projeto.
+                Esse processo cuidadoso assegura que o projeto final esteja alinhado com as expectativas do
+                cliente, resultando em um ambiente que seja esteticamente apropriado e funcionalmente eficiente.
+              </p>
+              <h4>Desenvolvimento de conceito</h4>
+              <p>Na etapa de desenvolvimento do conceito, a ideia geral do projeto, que surge das informações
+                coletadas no <i>briefing</i> e de várias fontes de inspiração, começa a ganhar forma e direção.
+                Essa fase
+                estabelece a base para todas as decisões subsequentes no projeto. Aqui, são definidas a essência
+                estética do projeto e a paleta de cores, também são exploradas as melhores opções de leiaute até
+                se
+                chegar ao resultado aprovado pelo cliente.</p>
+              <p>Para concretizar o conceito, são utilizadas ferramentas visuais como painéis criativos e plantas
+                baixas preliminares, que ajudam a entender qual leiaute será mais adequado. Além disso, imagens
+                renderizadas em perspectiva são essenciais para facilitar o entendimento do espaço pelos clientes,
+                já que muitos têm dificuldade em visualizar apenas utilizando plantas baixas. As imagens
+                renderizadas proporcionam uma sensação de realidade, facilitando a apresentação do conceito e do
+                ambiente proposto.</p>
+              <img src="imgs/img06.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img06.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img06.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                <i>Designer</i> de interiores desenvolvendo o conceito de projeto
+                <br>
+                Fonte: Pexels (2024)
+              </p>
+              <p class="acessivel no-print">
+                Fotografia de uma mulher branca, de cabelos longos e grisalhos, sentada, trabalhando em sua mesa
+                de escritório de frente para o computador. Atrás dela, um mural contém diversas fotografias e
+                imagens com referências visuais. Ela segura os seus óculos na mão direita e parece estar
+                elaborando ideias, olhando para cima.
+              </p>
+              <p>A definição final do conceito por parte do cliente é crucial para avançar para o projeto
+                executivo. É neste momento que o leiaute é finalizado, com o posicionamento dos móveis e uma
+                definição preliminar dos revestimentos. Essa definição servirá como base para o projeto executivo,
+                portanto, qualquer alteração por parte do cliente deve ser solicitada antes da formalização do
+                projeto conceitual aprovado. </p>
+              <h4>Desenhos técnicos e detalhamentos</h4>
+              <p>Com o projeto conceitual aprovado, chega o momento de desenvolver os desenhos que serão guias
+                para a execução no canteiro de obras e para todos os fornecedores envolvidos, garantindo que o
+                ambiente seja construído conforme foi idealizado.</p>
+              <p>Até o desenvolvimento do conceito, trabalha-se em estreita colaboração com o cliente, utilizando
+                desenhos e imagens com informações mais realistas e menos técnicas para facilitar o entendimento.
+                A partir desta fase, o trabalho torna-se mais interno ao escritório, focado no <i>designer</i> de
+                interiores de forma individualizada, sem participação direta do cliente. É o momento de realizar
+                toda a diagramação técnica do projeto, elaborando desenhos detalhados como plantas, cortes, vistas
+                e fachadas. Também são incluídos desenhos detalhados de elementos específicos, como o desenho de
+                um rodapé, os espaçamentos de uma sanca ou o acabamento de um puxador de gaveta, que não são
+                visíveis nos desenhos gerais e exigem atenção detalhada para os fornecedores. </p>
+              <img src="imgs/img07.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img07.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img07.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                <i>Designer</i> de interiores desenvolvendo os desenhos técnicos
+                <br>
+                Fonte: Pexels (2024)
+              </p>
+              <p class="acessivel no-print">
+                Mulher branca, de cabelo longo castanho, sentada em frente a um computador. Na tela do computador
+                está aberto um projeto renderizado de uma sala e os detalhamentos técnicos do projeto, com os
+                desenhos dos cortes e das elevações. Ela está folheando um livro e mexendo no mouse do computador.
+              </p>
+              <p>Em resumo, criar todos os desenhos necessários com informações completas garante o entendimento
+                preciso de todos os fornecedores envolvidos em cada etapa da construção do ambiente conforme
+                idealizado e elimina qualquer margem para dúvidas. Este é o momento de produzir o guia completo de
+                execução do ambiente projetado. Mais adiante, neste conteúdo, você terá informações e exemplos
+                adicionais sobre as peças gráficas que compõem um projeto executivo. </p>
+              <h4>Especificação de materiais e acabamentos</h4>
+              <p>A especificação de materiais e acabamentos é uma etapa crucial na qual todos os materiais
+                utilizados no projeto são definidos, desde revestimentos até móveis e elementos decorativos. Cada
+                item deve ser selecionado com cuidado para garantir qualidade, durabilidade e estética desejadas.
+                As especificações precisam incluir detalhes como fabricante, cores, texturas e quantidades
+                necessárias.</p>
+              <p>Esta fase demanda tempo significativo, muitas vezes equivalente ao necessário para o
+                desenvolvimento completo do projeto. Durante a especificação, o <i>designer</i> deve garantir
+                precisão em
+                todos os aspectos. Por exemplo, ao escolher um porcelanato como revestimento, é essencial
+                considerar se será usado em piso ou parede, a atividade que será realizada sobre ele, o índice de
+                abrasão (PI), o coeficiente de atrito, o acabamento adequado, além de modelo, cor, textura e
+                instruções de instalação, como cor e espaçamento do rejunte. Também é necessário especificar a
+                quantidade de material e a medida em metros quadrados (m²) necessária para cobrir a área
+                designada. </p>
+              <img src="imgs/img08.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img08.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img08.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Especificação de materiais e acabamentos
+                <br>
+                Fonte: Pexels (2024)
+              </p>
+              <p class="acessivel no-print">
+                Fotografia de uma mesa redonda com tampo circular em mármore branco, com pequenas amostras
+                quadradas de pisos, mármores e granitos. Contém ainda um celular, uma trena, uma caneta e um
+                notebook. Sentadas em torno da mesa há duas pessoas. Não é possível vê-las, mas é possível ver as
+                pernas de uma delas e as mãos de outra sobre a mesa. Essa última pessoa faz anotações em um papel
+                utilizando um lápis grafite comum.
+              </p>
+              <p>A precisão na especificação é fundamental, pois erros podem resultar em atrasos e custos
+                adicionais. Por exemplo, especificar uma quantidade insuficiente de revestimento pode exigir mão
+                de obra extra e atrasar o cronograma. Além da estética, a escolha dos materiais influencia o
+                conforto térmico e acústico, a facilidade de limpeza, a resistência e durabilidade do ambiente.
+                Materiais inadequados, como pisos escorregadios em áreas molhadas ou superfícies porosas na
+                cozinha, podem causar problemas de segurança e manutenção. Durante essa fase, amostras de
+                materiais fornecidas pelos fabricantes são recursos valiosos que auxiliam nas escolhas e no
+                processo de especificação. </p>
+              <h4>Orçamento e cronograma de execução</h4>
+              <p>A última etapa é a elaboração dos orçamentos e do cronograma de execução. Com base nas
+                especificações, nos detalhamentos e nos desenhos técnicos elaborados, é possível solicitar os
+                orçamentos necessários para materiais, serviços e mão de obra para a execução completa da obra.
+              </p>
+              <img src="imgs/img09.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img09.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img09.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                <i>Designer</i> de interiores desenvolvendo orçamento e cronograma
+                <br>
+                Fonte: Pexels (2024)
+              </p>
+              <p class="acessivel no-print">
+                Fotografia de uma mulher que veste camisa preta de bolinhas brancas e segura uma pasta rosa. Ela
+                está sentada a uma mesa, sobre a qual estão diversos desenhos técnicos espalhados.
+              </p>
+              <p>Estando todo o material técnico preparado, chega o momento de desenvolver um cronograma de
+                execução detalhado. Esse cronograma deve definir as diferentes fases da obra e os prazos a serem
+                cumpridos em cada uma delas. Ele é essencial para garantir que a obra seja concluída dentro do
+                prazo e do orçamento previstos, permitindo a coordenação eficiente dos serviços e dos
+                profissionais envolvidos. </p>
+              <p>Essa etapa requer conhecimentos específicos e será abordada com mais detalhes na unidade
+                curricular <b>Gerenciar execução de projetos de <i>design</i> de interiores</b>. </p>
+
+            </div>
+            <h2 id="t4">Compatibilização com complementares</h2>
+            <p>Na fase de elaboração do projeto executivo, é crucial integrar os projetos complementares para assegurar
+              a viabilidade da execução. Isso envolve compatibilizar <i>designs</i> de interiores com sistemas como
+              elétrico,
+              hidráulico, de climatização e estrutural e aplicar conhecimentos em ergonomia, composição, princípios do
+              <i>design</i> e materiais. Essa integração visa prevenir conflitos entre os diferentes projetos e garantir
+              que
+              cada elemento seja instalado corretamente, funcionando de maneira eficiente.
+            </p>
+            <p>Para o desenvolvimento adequado do projeto executivo, é essencial que o <i>designer</i> tenha
+              conhecimentos
+              específicos em disciplinas como teoria do <i>design</i>, ergonomia, composição, leiaute e materiais. Esses
+              conhecimentos são fundamentais para detalhar cada aspecto do ambiente e incluem medidas, acabamentos e
+              posicionamento dos elementos planejados, influenciando diretamente a funcionalidade e estética do espaço.
+              Além disso, quando aplicados, esses fundamentos promovem segurança, conforto e sustentabilidade aos
+              ambientes projetados.</p>
+            <p>A teoria do <i>design</i> orienta as decisões criativas e práticas, assegurando que os ambientes sejam
+              visualmente atraentes e harmoniosos. Aspectos como equilíbrio, contraste, proporção e harmonia são
+              essenciais na seleção de cores, formas e texturas, contribuindo para a composição coesa do ambiente. </p>
+            <img src="imgs/img10.png" class="center-block img-responsive hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="imgs/img10.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                src="imgs/img10.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Escolha de materiais para projeto
+              <br>
+              Fonte: Pexels (2024)
+            </p>
+            <p class="acessivel no-print">
+              Fotografia do alto de mãos femininas manuseando diferentes materiais e amostras de tecidos, papel de
+              parede, amostras de piso e de cores de tinta.
+            </p>
+            <p>Embora o <i>designer</i> de interiores não elabore diretamente projetos elétricos, hidráulicos e
+              estruturais, é
+              fundamental interpretar esses projetos para compatibilizá-los com o <i>design</i> proposto. Por exemplo,
+              ao
+              posicionar um aparelho de ar-condicionado, é necessário alinhar essa decisão ao projeto elétrico para
+              garantir a instalação adequada do aparelho. A proximidade de pontos elétricos e interruptores também deve
+              ser coordenada para facilitar o uso conforme as atividades planejadas para o ambiente. Nesse sentido,
+              conversar com profissionais parceiros habilitados é muito importante para que o seu projeto seja
+              compatível com a realidade e necessidade do espaço e dos seus clientes. </p>
+            <p>Portanto, a fase de integração e compatibilização dos projetos complementares no projeto executivo é
+              essencial para garantir a execução eficiente e precisa do ambiente projetado, minimizando surpresas e
+              otimizando recursos. </p>
+            <h2 id="t5">Peças gráficas do projeto executivo</h2>
+            <p>Agora que você já compreendeu o que é projeto executivo, quais são seus objetivos e sua importância e
+              também a diferença entre o projeto conceitual e o projeto executivo, além do processo completo envolvido
+              na sua elaboração, confira quais são os documentos gráficos que compõem o conjunto final do projeto
+              executivo: </p>
+            <h4>Plantas</h4>
+            <p>São desenhos que mostram a disposição de paredes, portas, janelas, móveis e equipamentos em duas
+              dimensões para que se consiga entender o leiaute do ambiente. A representação plana da edificação em vista
+              superior é feita a partir de um corte horizontal realizado a uma altura aproximada de 1,5 metros em
+              relação ao piso. Essa altura pode variar dependendo das informações que se deseja representar. Em um
+              projeto executivo, é possível ter diversos tipos de plantas, como, por exemplo: </p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Planta baixa
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <img src="imgs/img11.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                      <a href="imgs/img11.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/img11.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Planta baixa
+                        <br>
+                        Fonte: Senac EAD (2024)
+                      </p>
+                      <p class="acessivel no-print">
+                        Desenho mostrando a representação de uma planta baixa. As paredes estão preenchidas em cinza
+                        escuro, os ambientes contêm cotas gerais. Há marcações de corte longitudinal AA e transversal
+                        BB. Também há o símbolo de orientação geográfica, com o “norte” apontando para os quadrantes
+                        superiores. Abaixo do desenho são indicados o título Planta baixa e a escala de representação do
+                        desenho 1:50. Não há nenhuma representação de mobiliário, piso ou pontos elétricos e
+                        hidráulicos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Planta de forro
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <img src="imgs/img12.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                      <a href="imgs/img12.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/img12.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Planta de forro
+                        <br>
+                        Fonte: Senac EAD (2024)
+                      </p>
+                      <p class="acessivel no-print">
+                        Desenho mostrando a representação de uma planta de forro. As paredes estão preenchidas em cinza
+                        escuro, os ambientes contêm cotas gerais e duas hachuras diferentes indicam os diferentes
+                        detalhes de forro. A legenda indica a que se refere cada hachura: hachura em linhas diagonais
+                        representando rebaixo de gesso liso com tabica e altura de 15 cm, e hachura em hexágonos
+                        representando cortineiro com sanca na altura da laje.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Planta de leiaute de mobiliário
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                    aria-labelledby="headingThree">
+                    <div class="panel-body">
+                      <img src="imgs/img13.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                      <a href="imgs/img13.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/img13.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Planta leiaute de mobiliário
+                        <br>
+                        Fonte: Senac EAD (2024)
+                      </p>
+                      <p class="acessivel no-print">
+                        Desenho de planta baixa de um apartamento integrado com cozinha, sala de jantar e estar e
+                        dormitórios representado em vista superior por meio de desenho técnico em tons de cinza. No
+                        desenho estão dispostos os mobiliários e elementos decorativos. As dimensões do apartamento e os
+                        espaços de circulação estão indicados em cotas vermelhas. O mobiliário está numerado e, ao lado
+                        do desenho, está uma tabela com a legenda indicando o número a que ele se refere com
+                        especificação técnica, dimensão e quantidade. Duas linhas de corte estão indicadas, uma
+                        transversal e um longitudinal.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h4>Planta baixa</h4>
+              <img src="imgs/img11.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img11.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img11.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Planta baixa
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">
+                Desenho mostrando a representação de uma planta baixa. As paredes estão preenchidas em cinza
+                escuro, os ambientes contêm cotas gerais. Há marcações de corte longitudinal AA e transversal
+                BB. Também há o símbolo de orientação geográfica, com o “norte” apontando para os quadrantes
+                superiores. Abaixo do desenho são indicados o título Planta baixa e a escala de representação do
+                desenho 1:50. Não há nenhuma representação de mobiliário, piso ou pontos elétricos e
+                hidráulicos.
+              </p>
+              <h4>Planta de forro</h4>
+              <img src="imgs/img12.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img12.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img12.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Planta de forro
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">
+                Desenho mostrando a representação de uma planta de forro. As paredes estão preenchidas em cinza
+                escuro, os ambientes contêm cotas gerais e duas hachuras diferentes indicam os diferentes
+                detalhes de forro. A legenda indica a que se refere cada hachura: hachura em linhas diagonais
+                representando rebaixo de gesso liso com tabica e altura de 15 cm, e hachura em hexágonos
+                representando cortineiro com sanca na altura da laje.
+              </p>
+              <h4>Planta de leiaute de mobiliário</h4>
+              <img src="imgs/img13.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img13.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img13.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Planta leiaute de mobiliário
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">
+                Desenho de planta baixa de um apartamento integrado com cozinha, sala de jantar e estar e
+                dormitórios representado em vista superior por meio de desenho técnico em tons de cinza. No
+                desenho estão dispostos os mobiliários e elementos decorativos. As dimensões do apartamento e os
+                espaços de circulação estão indicados em cotas vermelhas. O mobiliário está numerado e, ao lado
+                do desenho, está uma tabela com a legenda indicando o número a que ele se refere com
+                especificação técnica, dimensão e quantidade. Duas linhas de corte estão indicadas, uma
+                transversal e um longitudinal.
+              </p>
+            </div>
+            <h4>Cortes</h4>
+            <p>A representação plana da edificação é feita por meio de um corte vertical realizado a uma determinada
+              distância de uma das laterais da construção. A posição desse corte varia conforme a necessidade de exibir
+              informações específicas. Segundo a NBR 6492/2021 (ABNT, 2021), o posicionamento do corte deve maximizar a
+              exibição de detalhes construtivos. Esse corte tem como objetivo representar as alturas da edificação,
+              mostrando detalhes como alturas dos tetos, forros, móveis altos e elementos estruturais. Em um projeto
+              executivo, é possível ter diversos tipos de cortes, por exemplo: </p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour"
+                        aria-expanded="true" aria-controls="collapseFour">
+                        Cortes transversais e longitudinais
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel"
+                    aria-labelledby="headingFour">
+                    <div class="panel-body">
+                      <img src="imgs/img15.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                      <a href="imgs/img15.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/img15.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Corte transversal
+                        <br>
+                        Fonte: Senac EAD (2024)
+                      </p>
+                      <p class="acessivel no-print">Plano secante vertical que divide a edificação no sentido
+                        transversal. No desenho há cotas verticais, representação do forro e demais elementos
+                        significativos, como mobiliários e decoração, numerados, auxiliando no desenvolvimento de uma
+                        legenda indicativa deles. As paredes estão preenchidas em cinza escuro. Os ambientes compreendem
+                        parte da cozinha e área integrada do dormitório. Abaixo do desenho são indicados o título Corte
+                        BB e a escala de representação do desenho 1:50.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2"
+                        href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Cortes específicos para detalhamento de elementos construtivos
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                    <div class="panel-body">
+                      <img src="imgs/img16.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                      <a href="imgs/img16.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/img16.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Cortes específicos
+                        <br>
+                        Fonte: Senac EAD (2024)
+                      </p>
+                      <p class="acessivel no-print">Dois desenhos de cortes, um longitudinal e outro transversal,
+                        demonstrando a posição e profundidade de um nicho em uma das paredes do banheiro. No primeiro
+                        desenho, à esquerda, está o nicho em vista frontal. No segundo desenho, à direita, está o nicho
+                        em vista lateral, sendo possível ver a sua profundidade recordando a parede onde está
+                        posicionado. Nos dois desenhos estão cotas indicando as medidas de altura e, no desenho à
+                        direita, a profundidade do nicho também está indicada por cota.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h4>Cortes transversais e longitudinais</h4>
+              <img src="imgs/img15.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img15.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img15.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Corte transversal
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Plano secante vertical que divide a edificação no sentido
+                transversal. No desenho há cotas verticais, representação do forro e demais elementos
+                significativos, como mobiliários e decoração, numerados, auxiliando no desenvolvimento de uma
+                legenda indicativa deles. As paredes estão preenchidas em cinza escuro. Os ambientes compreendem
+                parte da cozinha e área integrada do dormitório. Abaixo do desenho são indicados o título Corte
+                BB e a escala de representação do desenho 1:50.</p>
+              <h4>Cortes específicos para detalhamento de elementos construtivos</h4>
+              <img src="imgs/img16.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img16.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img16.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Cortes específicos
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Dois desenhos de cortes, um longitudinal e outro transversal,
+                demonstrando a posição e profundidade de um nicho em uma das paredes do banheiro. No primeiro
+                desenho, à esquerda, está o nicho em vista frontal. No segundo desenho, à direita, está o nicho
+                em vista lateral, sendo possível ver a sua profundidade recordando a parede onde está
+                posicionado. Nos dois desenhos estão cotas indicando as medidas de altura e, no desenho à
+                direita, a profundidade do nicho também está indicada por cota.</p>
+            </div>
+            <h4>Vistas</h4>
+            <p>As vistas, também conhecidas como elevações, conforme a NBR 6492/2021, são a representação gráfica de
+              planos internos ou de elementos da edificação. Ao contrário dos cortes, as vistas não têm o objetivo de
+              mostrar elementos construtivos do ambiente, mas sim a disposição dos elementos internos. Por exemplo, ao
+              projetar uma cozinha, as vistas são usadas para demonstrar a disposição dos armários com suas alturas
+              respectivas e as distâncias entre bancadas e armários superiores. Em um projeto executivo, é possível
+              desenvolver diversos tipos de vistas, por exemplo: </p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingSix">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapseSix"
+                        aria-expanded="true" aria-controls="collapseSix">
+                        Vistas de ambientes
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseSix" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSix">
+                    <div class="panel-body">
+                      <img src="imgs/img17.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                      <a href="imgs/img17.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/img17.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Vista de ambiente
+                        <br>
+                        Fonte: Senac EAD (2024)
+                      </p>
+                      <p class="acessivel no-print">
+                        Plano vertical representando a vista de um banheiro. No desenho há cotas verticais e horizontais
+                        e demais elementos significativos, como mobiliário, louças e metais. As paredes estão
+                        preenchidas em cinza escuro. Abaixo do desenho são indicados o título Vista D banheiro e a
+                        escala de representação do desenho 1:25.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingSeven">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3"
+                        href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Vistas de fachadas internas e externas
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel"
+                    aria-labelledby="headingSeven">
+                    <div class="panel-body">
+                      <p>Esse tipo de desenho não é muito usual nos projetos de <i>design</i> de interiores. Ele é mais
+                        encontrado em
+                        projetos de espaços comerciais, como no exemplo da imagem, ou em projetos como de áreas externas
+                        (jardins), não se aplicando a projetos de interiores residenciais. </p>
+                      <img src="imgs/img18.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                      <a href="imgs/img18.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/img18.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Fachada externa
+                        <br>
+                        Fonte: Senac EAD (2024)
+                      </p>
+                      <p class="acessivel no-print">
+                        Desenho planificado que mostra o plano vertical da fachada de uma loja e todos os elementos que
+                        a compõem. Na parte superior está o letreiro com o nome da loja. Abaixo, ao lado esquerdo, há
+                        uma vitrine de vidro do piso até o início da parte onde está localizado o letreiro. Atrás do
+                        vidro há a indicação de nichos expositores que estão representados nas cores preta, azul e
+                        amarela. Cotas indicam as medidas da fachada e dos elementos que estão compondo e setas fazem a
+                        indicação da especificação textual de cada um dos elementos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h4>Vistas de ambientes</h4>
+              <img src="imgs/img17.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img17.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img17.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Vista de ambiente
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">
+                Plano vertical representando a vista de um banheiro. No desenho há cotas verticais e horizontais
+                e demais elementos significativos, como mobiliário, louças e metais. As paredes estão
+                preenchidas em cinza escuro. Abaixo do desenho são indicados o título Vista D banheiro e a
+                escala de representação do desenho 1:25.
+              </p>
+              <h4>Vistas de fachadas internas e externas</h4>
+              <p>Esse tipo de desenho não é muito usual nos projetos de <i>design</i> de interiores. Ele é mais
+                encontrado em
+                projetos de espaços comerciais, como no exemplo da imagem, ou em projetos como de áreas externas
+                (jardins), não se aplicando a projetos de interiores residenciais. </p>
+              <img src="imgs/img18.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img18.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img18.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Fachada externa
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">
+                Desenho planificado que mostra o plano vertical da fachada de uma loja e todos os elementos que
+                a compõem. Na parte superior está o letreiro com o nome da loja. Abaixo, ao lado esquerdo, há
+                uma vitrine de vidro do piso até o início da parte onde está localizado o letreiro. Atrás do
+                vidro há a indicação de nichos expositores que estão representados nas cores preta, azul e
+                amarela. Cotas indicam as medidas da fachada e dos elementos que estão compondo e setas fazem a
+                indicação da especificação textual de cada um dos elementos.
+              </p>
+            </div>
+            <h4>Ampliações</h4>
+            <p>As ampliações são definidas pela NBR 6492/2021 (ABNT, 2021) como a representação gráfica de todos os
+              detalhes necessários, em escala adequada, para um entendimento preciso do projeto e para permitir sua
+              correta execução. Elas são utilizadas quando há algum elemento muito pequeno que não é visível nos
+              desenhos gerais de plantas, cortes e vistas, mas cuja execução precisa ser claramente compreendida. Nesses
+              casos, é feito um desenho específico daquele ponto em uma escala maior do que as demais, permitindo a
+              definição dos detalhes de execução. Um exemplo seria o detalhe do acabamento de uma sanca no forro de
+              gesso. </p>
+
+
+
+
+
+
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="panel-group" id="accordion4" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingEight">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion4" href="#collapseEight"
+                        aria-expanded="true" aria-controls="collapseEight">
+                        Detalhamento de áreas específicas
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseEight" class="panel-collapse collapse in" role="tabpanel"
+                    aria-labelledby="headingEight">
+                    <div class="panel-body">
+                      <img src="imgs/img19.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                      <a href="imgs/img19.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/img19.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">Ampliações de elementos decorativos e funcionais
+                        <br>
+                        Fonte: Senac EAD (2024)
+                      </p>
+                      <p class="acessivel no-print">Quatro desenhos com o detalhamento de uma bancada com armários. No
+                        primeiro está uma vista superior da bancada, com o posicionamento da cuba e torneira e dimensões
+                        indicadas em cota. No segundo, do lado direito, está uma imagem em perspectiva isométrica da
+                        bancada, com setas indicando os acabamentos. No terceiro desenho, localizado no canto inferior
+                        esquerdo, está uma vista frontal da bancada, demonstrando o armário abaixo da bancada, cotas
+                        indicam as medidas de altura e setas pontilhadas indicam o sentido de abertura das portas do
+                        armário. No quarto desenho está um corte transversal do armário e da bancada.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingNine">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion4"
+                        href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        Ampliações de elementos decorativos ou funcionais
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+                    <div class="panel-body">
+                      <img src="imgs/img20.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                      <a href="imgs/img20.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/img20.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Ampliações de elementos decorativos e funcionais
+                        <br>
+                        Fonte: Senac EAD (2024)
+                      </p>
+                      <p class="acessivel no-print">Desenho de dois detalhes ampliados. O primeiro detalhe refere-se a
+                        um cortineiro em corte lateral. Esse cortineiro é iluminado e contém 15 cm de afastamento da
+                        parede. O segundo detalhe refere-se a uma tabica de gesso. Essa tabica contém 3 cm de largura e
+                        2 cm de altura.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h4>Detalhamento de áreas específicas</h4>
+              <img src="imgs/img19.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img19.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img19.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Ampliações de elementos decorativos e funcionais
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Quatro desenhos com o detalhamento de uma bancada com armários. No
+                primeiro está uma vista superior da bancada, com o posicionamento da cuba e torneira e dimensões
+                indicadas em cota. No segundo, do lado direito, está uma imagem em perspectiva isométrica da
+                bancada, com setas indicando os acabamentos. No terceiro desenho, localizado no canto inferior
+                esquerdo, está uma vista frontal da bancada, demonstrando o armário abaixo da bancada, cotas
+                indicam as medidas de altura e setas pontilhadas indicam o sentido de abertura das portas do
+                armário. No quarto desenho está um corte transversal do armário e da bancada.</p>
+              <h4>Ampliações de elementos decorativos ou funcionais</h4>
+              <img src="imgs/img20.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/img20.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/img20.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Ampliações de elementos decorativos e funcionais
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Desenho de dois detalhes ampliados. O primeiro detalhe refere-se a
+                um cortineiro em corte lateral. Esse cortineiro é iluminado e contém 15 cm de afastamento da
+                parede. O segundo detalhe refere-se a uma tabica de gesso. Essa tabica contém 3 cm de largura e
+                2 cm de altura.</p>
+            </div>
+            <p>Quantos detalhamentos, não é mesmo?</p>
+            <p class="no-print" aria-hidden="true">Que tal agora experimentar o simulador Projeto Executivo 360°? Nesta
+              ferramenta, você terá acesso a um
+              banheiro residencial e aos detalhamentos técnicos necessários para que todo o projeto seja realizado da
+              maneira correta. Clique no botão a seguir e tenha um ótimo passeio virtual.</p>
+            <div class="espera no-print" aria-hidden="true">
+              <h2 class="text-center">Espera</h2>
+            </div>
+            <h2 id="t6">Encerramento</h2>
+            <p>Este conteúdo abordou a fase final do projeto de <i>design</i> de interiores, conhecida como projeto
+              executivo,
+              e destacou a importância dessa etapa na transformação do conceito inicial em planos detalhados que guiarão
+              a execução do ambiente conforme idealizado pelo <i>designer</i>. Foram também explicados a relevância do
+              projeto
+              executivo, o seu processo de elaboração e os elementos essenciais que compõem a entrega final.
+              Enfatizou-se que as peças gráficas devem ser desenvolvidas com precisão, incluindo todos os detalhes e
+              especificações necessários para garantir o entendimento completo do projeto pelos fornecedores envolvidos
+              na execução.</p>
+            <p>Além disso, discutiu-se a importância da compatibilização entre os projetos complementares e dos sistemas
+              de infraestrutura do ambiente. Essa integração harmoniosa é crucial para viabilizar a execução eficiente
+              do <i>design</i> de interiores conforme planejado. </p>
+          </div>
+          <div class="modal fade no-print" id="premissa1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-live="polite" aria-atomic="true" aria-hidden="false">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content no-print">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Identificação e análise das necessidades do cliente</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Apesar de o <i>briefing</i> com os clientes já ter ocorrido e de suas necessidades gerais para o
+                    projeto
+                    conceitual já terem sido compreendidas, no momento do projeto executivo é preciso identificar
+                    ainda mais especificamente essas necessidades e incluir também aquelas que talvez nem o próprio
+                    cliente tenha verbalizado. Para isso, deve-se manter uma comunicação ainda mais estreita para que
+                    se entendam detalhes da rotina e características pessoais, como altura, hábitos e estilos de vida.
+                    Esses aspectos influenciam diretamente no detalhamento e na escolha de materiais e acabamentos.
+                  </p>
+                  <p>Por exemplo, ao projetar um <i>closet</i>, pode-se personalizar cada espaço para o cliente,
+                    planejando
+                    alturas adequadas para facilitar o acesso aos itens de uso cotidiano e colocando os itens de menor
+                    uso em locais menos acessíveis. É possível ajustar cabideiros à altura das roupas e criar
+                    sapateiras adequadas aos tamanhos dos sapatos. </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade no-print" id="premissa2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-live="polite" aria-atomic="true" aria-hidden="false">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content no-print">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Levantamento de dados e informações relevantes</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Para as definições técnicas, soluções e especificações que serão desenvolvidas no projeto
+                    executivo, é essencial realizar um levantamento meticuloso de informações. Isso inclui medidas
+                    precisas, condições estruturais, sistemas elétricos e hidráulicos existentes, além de considerar
+                    possíveis restrições legais ou regulatórias. O levantamento completo de dados e informações
+                    relevantes é crucial para evitar surpresas durante a execução da obra e garantir que todas as
+                    alterações propostas sejam viáveis dentro das condições do espaço existente. </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade no-print" id="premissa3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-live="polite" aria-atomic="true" aria-hidden="false">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content no-print">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Estudo de viabilidade técnica e econômica</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Com o avanço das definições e especificações técnicas do projeto, é crucial avaliar a viabilidade
+                    tanto técnica quanto econômica do que foi proposto inicialmente de forma conceitual. Nessa etapa,
+                    é necessário analisar escolhas como materiais, técnicas de construção e mão de obra necessária.
+                    Por exemplo, decidir entre fechamento de vãos com alvenaria convencional ou <i>drywall</i> afeta
+                    tanto a
+                    estrutura quanto a necessidade de mão de obra especializada, já que o <i>drywall</i> requer
+                    profissionais
+                    com habilidades específicas.</p>
+                  <p>Além disso, é fundamental considerar o orçamento disponível para a execução completa da obra,
+                    conforme definido pelo cliente. O <i>designer</i> de interiores deve colaborar com outros
+                    profissionais
+                    necessários, como engenheiros, arquitetos e especialistas, para garantir a viabilidade do projeto
+                    tanto em termos técnicos quanto dentro dos limites financeiros estipulados pelo cliente. </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+      <!--
+          <ul class="pagination">
+
+          </ul>
+          -->
+    </footer>
+  </div>
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+    -->
+  <!-- carrega todas as imagens dos icones nesta div
+ caso queira adicionar mais imagens de novos icones do css,
+ ou qualquer imagem que deva ser contabilizada durante a fase
+ de loading, referenciar aqui.
+ -->
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png" />
+    <img src="../template/images/bg-content.jpg" />
+    <img src="../template/images/bg-topo.jpg" />
+    <img src="../template/images/black-zoom-in-256.png" />
+    <img src="../template/images/concluindo.png" />
+    <img src="../template/images/curtir.png" />
+    <img src="../template/images/desafio.png" />
+    <img src="../template/images/dica.png" />
+    <img src="../template/images/doc.png" />
+    <img src="../template/images/fundamental.png" />
+    <img src="../template/images/icon-03.png" />
+    <img src="../template/images/importante.png" />
+    <img src="../template/images/lightbulb.png" />
+    <img src="../template/images/link.png" />
+    <img src="../template/images/link_pdf_hover.png" />
+    <img src="../template/images/link_pdf_normal.png" />
+    <img src="../template/images/logo-senac.png" />
+    <img src="../template/images/mark-icon.png" />
+    <img src="../template/images/mark-icon02.png" />
+    <img src="../template/images/midia.png" />
+    <img src="../template/images/monitor.png" />
+    <img src="../template/images/nao_curtir.png" />
+    <img src="../template/images/pergunta.png" />
+    <img src="../template/images/pesquisa.png" />
+    <img src="../template/images/play.png" />
+    <img src="../template/images/radio_flat.png" />
+    <img src="../template/images/refletir.png" />
+    <img src="../template/images/saiba_mais.png" />
+    <img src="../template/images/senac_loader.png" />
+    <img src="../template/images/tanamidia.png" />
+    <img src="../template/images/transcricao.png" />
+    <img src="../template/images/transcricao_small.png" />
+    <img src="../template/images/tv.png" />
+    <img src="../template/images/tv_bottom.png" />
+    <img src="../template/images/zoom.png" />
+    <img src="../template/images/zoom_ie.cur" />
+    <img src="../template/images/zoom_ie.png" />
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/highlight.min.js"></script>
+  <script src="../template/js/parallax.min.js"></script>
+  <script src="js/custom.js"></script>
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
+</body>
+
+</html>
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    document.querySelectorAll("pre code").forEach((el) => {
+      hljs.highlightElement(el);
+    });
+  });
+  //inicializa zoom na imagem
+  $(".zoom-imagem").magnificPopup({
+    type: "image",
+    mainClass: "mfp-with-zoom", // this class is for CSS animation below
+    zoom: {
+      enabled: true, // By default it's false, so don't forget to enable it
+
+      duration: 300, // duration of the effect, in milliseconds
+      easing: "ease-in-out", // CSS transition easing function
+
+      // The "opener" function should return the element from which popup will be zoomed in
+      // and to which popup will be scaled down
+      // By defailt it looks for an image tag:
+      opener: function (openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is("img")
+          ? openerElement
+          : openerElement.find("img");
+      },
+    },
+    image: {
+      markup:
+        '<div class="mfp-figure">' +
+        '<div class="mfp-close"></div>' +
+        '<div class="mfp-img"></div>' + // Floated left
+        '<div class="mfp-bottom-bar">' +
+        "<figcaption>" +
+        '<div class="mfp-title" style="text-align:center"></div>' +
+        '<div class="mfp-counter"></div>' +
+        "</figcaption>" +
+        "</div>" +
+        "</div>", // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+      cursor: "mfp-zoom-out-cur", // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+      tError: '<a href="%url%">A imagem</a> não pode ser carregada.', // Error message
+    },
+  });
+  $(document).ready(function () {
+    $('.list-group-item').click(function () {
+      $('.list-group-item').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
+  //inicializa popover
+  $(function () {
+    $('[data-toggle="popover"]').popover();
+  });
+  //inicializa tooltip
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
+  var root = document.documentElement;
+  root.className += " js";
+
+  function boxTop(idBox) {
+    var boxOffset = $(idBox).offset().top;
+    return boxOffset;
+  }
+
+  $(document).ready(function () {
+    var $target = $(".animeStart"),
+      $target2 = $(".animeStop"),
+      targetBox = $(".box"),
+      animationClass = "anime-init",
+      windowHeight = $(window).height(),
+      offset = windowHeight - windowHeight / 4;
+
+    function animeScroll() {
+      var documentTop = $(document).scrollTop();
+      $target.each(function () {
+        if (documentTop > boxTop(this) - offset) {
+          targetBox.addClass(animationClass);
+        } else {
+          targetBox.removeClass(animationClass);
+        }
+        if (documentTop > boxTop($target2) - offset) {
+          targetBox.removeClass(animationClass);
+        }
+      });
+    }
+    animeScroll();
+
+    $(document).scroll(function () {
+      animeScroll();
+    });
+  });
+</script>
+
+<script>
+  var scriptElem = document.createElement("script");
+  (scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js"),
+    (scriptElem.charset = "UTF-8"),
+    (scriptElem.onload = function () {
+      window.ht = new HT({
+        token: "bf5b7efb148a829a126a0e0c9fd533bf",
+        align: "top",
+        videoEnabled: true,
+        ytEmbedReplace: true,
+        mobileConfig: {
+          align: "right",
+          actionsAlign: "top",
+          customButtonStyle: {
+            borderRadius: "6px",
+            size: "38px",
+            horizontalMargin: "13px",
+            bottomMargin: "140px",
+            rightMargin: "40px",
+          },
+        },
+      });
+      $(".ht-skip").attr("aria-hidden", "true");
+    }),
+    document.body.appendChild(scriptElem);
+</script>

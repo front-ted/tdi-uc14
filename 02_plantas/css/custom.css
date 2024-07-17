@@ -2,11 +2,112 @@ html {
   scroll-behavior: smooth;
 }
 
+h2,
+h3,
+h4 {
+  color: #2a8080;
+  font-weight: bold;
+}
+
+.tab-content {
+  border-width: 3px;
+  border-style: solid;
+  padding: 40px;
+  border-radius: 0 25px 25px 25px;
+  border-color: #84342c;
+}
+
+.panel-title a {
+  position: relative;
+  display: block;
+  padding-right: 40px;
+}
+
+.panel-default {
+  border-color: transparent;
+}
+
+.panel-body {
+  border-left: 2px solid #84342c;
+}
+
+.panel-title a::after {
+  content: '\25B2';
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+}
+
+.panel-title a.collapsed::after {
+  content: '\25BC';
+}
+
+.panel-heading {
+  background-color: #84342c !important;
+  color: #fff !important;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.panel-heading a {
+  text-decoration: none;
+  outline: none;
+}
+
 body {
   background: url("../imgs/bg01.png") repeat;
   background-size: cover;
   background-position: top center;
   overflow-x: hidden;
+}
+
+.botao {
+  background-color: #84342c;
+  color: #ffffff;
+  border-bottom: solid 2px #84342c;
+  font-weight: 600;
+}
+
+.botao:hover {
+  text-decoration: none;
+  background-color: #84342c;
+  border-bottom: solid 2px #84342c;
+  color: #ffffff;
+  scale: 1.1;
+  transition: transform 0.2s;
+}
+
+.painel-parede {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.modal-content {
+  background: url("../imgs/bg_modal.png") repeat;
+  background-size: cover;
+  background-position: top center;
+  overflow-x: hidden;
+}
+
+.destaque2 {
+  background: url("../imgs/destaque.png") no-repeat;
+  background-size: 100% 100%;
+  overflow-x: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.caixa-destaque {
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .container {
@@ -26,7 +127,7 @@ body {
   align-content: center;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .bt-projeto {
@@ -34,247 +135,219 @@ body {
   transition: transform 0.2s;
   background: transparent;
   outline: none;
+  width: 209px;
+  height: 173px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 8px;
 }
 
 .bt-projeto1 {
   background: url("../imgs/bt/bt01.png");
-  width: 207px;
-  height: 183px;
 }
 
 .bt-projeto2 {
   background: url("../imgs/bt/bt02.png");
-  width: 329px;
-  height: 230px;
 }
 
 .bt-projeto3 {
   background: url("../imgs/bt/bt03.png");
-  width: 231px;
-  height: 198px;
 }
 
 .bt-projeto4 {
   background: url("../imgs/bt/bt04.png");
-  width: 275px;
-  height: 194px;
 }
 
 .bt-projeto5 {
   background: url("../imgs/bt/bt05.png");
-  width: 269px;
-  height: 317px;
 }
 
 .bt-projeto6 {
   background: url("../imgs/bt/bt06.png");
-  width: 208px;
-  height: 207px;
 }
 
 .bt-projeto7 {
   background: url("../imgs/bt/bt07.png");
-  width: 209px;
-  height: 187px;
 }
 
 .bt-projeto8 {
   background: url("../imgs/bt/bt08.png");
-  width: 237px;
-  height: 193px;
 }
 
 .bt-projeto9 {
   background: url("../imgs/bt/bt09.png");
-  width: 207px;
-  height: 226px;
 }
 
 .bt-projeto10 {
   background: url("../imgs/bt/bt10.png");
-  width: 207px;
-  height: 225px;
 }
 
 .bt-projeto11 {
   background: url("../imgs/bt/bt11.png");
-  width: 207px;
-  height: 183px;
 }
 
 .bt-projeto12 {
   background: url("../imgs/bt/bt12.png");
-  width: 207px;
-  height: 183px;
 }
 
 .bt-projeto1:hover {
-  background: url("../imgs/bt/bt01_b.png");
+  background: url("../imgs/bt/bt01_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto2:hover {
-  background: url("../imgs/bt/bt02_b.png");
+  background: url("../imgs/bt/bt02_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto3:hover {
-  background: url("../imgs/bt/bt03_b.png");
+  background: url("../imgs/bt/bt03_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto4:hover {
-  background: url("../imgs/bt/bt04_b.png");
+  background: url("../imgs/bt/bt04_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto5:hover {
-  background: url("../imgs/bt/bt05_b.png");
+  background: url("../imgs/bt/bt05_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto6:hover {
-  background: url("../imgs/bt/bt06_b.png");
+  background: url("../imgs/bt/bt06_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto7:hover {
-  background: url("../imgs/bt/bt07_b.png");
+  background: url("../imgs/bt/bt07_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto8:hover {
-  background: url("../imgs/bt/bt08_b.png");
+  background: url("../imgs/bt/bt08_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto9:hover {
-  background: url("../imgs/bt/bt09_b.png");
+  background: url("../imgs/bt/bt09_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto10:hover {
-  background: url("../imgs/bt/bt10_b.png");
+  background: url("../imgs/bt/bt10_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto11:hover {
-  background: url("../imgs/bt/bt11_b.png");
+  background: url("../imgs/bt/bt11_2.png");
   transform: scale(1.1);
 }
 
 .bt-projeto12:hover {
-  background: url("../imgs/bt/bt12_b.png");
+  background: url("../imgs/bt/bt12_2.png");
   transform: scale(1.1);
 }
 
 /* fim painel projeto */
 
-/* inicio painel papel */
-.painel-papel {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+/* inicio cards */
+.flip-card {
+  background-color: transparent;
+  width: 280px;
+  height: 413px;
+  margin: 20px auto;
 }
 
-.bt-papel {
-  border: none;
-  transition: transform 0.2s, box-shadow 0.2s;
-  background: transparent;
-  outline: none;
-  width: 540px;
-  height: 356px;
-  margin: 10px;
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
-.bt-papel1 {
-  background: url("../imgs/bt01_2.png");
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  cursor: pointer;
 }
 
-.bt-papel2 {
-  background: url("../imgs/bt02_2.png");
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
-.bt-papel3 {
-  background: url("../imgs/bt03_2.png");
+.flip-card-back {
+  transform: rotateY(180deg);
 }
 
-.bt-papel4 {
-  background: url("../imgs/bt04_2.png");
+/* fim cards */
+
+.img-zoom {
+  display: table;
+  position: relative;
+  margin: 0px auto;
+  cursor: pointer;
 }
 
-.bt-papel5 {
-  background: url("../imgs/bt05_2.png");
+.img-zoom::after {
+  content: url('../imgs/lupa.png');
+  display: block;
+  width: 80px;
+  height: 80px;
+  right: 50px;
+  bottom: 25px;
+  position: absolute;
+  filter: drop-shadow(#333 3px 3px 4px);
 }
 
-.bt-papel1:hover,
-.bt-papel2:hover,
-.bt-papel3:hover,
-.bt-papel4:hover,
-.bt-papel5:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 21px 10px rgba(132, 52, 44, 0.3);
-  -webkit-box-shadow: 0px 0px 21px 10px rgba(132, 52, 44, 0.3);
-  -moz-box-shadow: 0px 0px 21px 10px rgba(132, 52, 44, 0.3);
+@media only screen and (max-width: 768px) {
+  .painel-projeto1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
+  .destaque2 {
+    width: 100%;
+  }
+
+  .caixa-destaque {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .painel-parede {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }
 
-/* fim painel papel */
-/* inicio painel tintas */
-.painel-tintas {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+
+@media only screen and (max-width: 425px) {
+  .destaque2 {
+    background: unset;
+    background-size: unset;
+    overflow-x: unset;
+    height: unset;
+    width: unset;
+    background-color: #f9eded;
+  }
+
+  .caixa-destaque {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
-
-.bt-tintas {
-  border: none;
-  transition: transform 0.2s, box-shadow 0.2s;
-  background: transparent;
-  outline: none;
-  width: 254px;
-  height: 376px;
-  margin: 10px;
-}
-
-.bt-tintas1 {
-  background: url("../imgs/card01.png");
-}
-
-.bt-tintas2 {
-  background: url("../imgs/card02.png");
-}
-
-.bt-tintas3 {
-  background: url("../imgs/card03.png");
-}
-
-.bt-tintas1:hover,
-.bt-tintas2:hover,
-.bt-tintas3:hover {
-  box-shadow: 11px -12px 11px -2px rgba(132, 52, 44, 0.3);
-}
-
-/* fim painel tintas */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px) {}

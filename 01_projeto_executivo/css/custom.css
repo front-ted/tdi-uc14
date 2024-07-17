@@ -9,6 +9,66 @@ body {
   overflow-x: hidden;
 }
 
+.panel-body {
+  border-left: 2px solid #84342c;
+}
+
+.img-zoom {
+  display: table;
+  position: relative;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+.panel-default {
+  border-color: transparent;
+}
+
+.btn-default {
+  color: #ffffff;
+  background-color: #84342c;
+  border-color: #84342c;
+}
+
+.btn-default:hover {
+  color: #ffffff;
+  background-color: #84342c;
+  border-color: #84342c;
+}
+
+.btn-default:active {
+  color: #ffffff;
+  background-color: #84342c;
+  border-color: #84342c;
+}
+
+.botao {
+  background-color: #84342c;
+  color: #ffffff;
+  border-bottom: solid 2px #84342c;
+  font-weight: 600;
+}
+
+.botao:hover {
+  text-decoration: none;
+  background-color: #84342c;
+  border-bottom: solid 2px #84342c;
+  color: #ffffff;
+  scale: 1.1;
+  transition: transform 0.2s;
+}
+
+.img-zoom::after {
+  content: url('../imgs/lupa.png');
+  display: block;
+  width: 80px;
+  height: 80px;
+  right: 50px;
+  bottom: 25px;
+  position: absolute;
+  filter: drop-shadow(#333 3px 3px 4px);
+}
+
 .container {
   padding: 0px 40px;
   border-radius: 15px;
@@ -17,7 +77,8 @@ body {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   color: #2a8080;
   font-weight: bold;
 }

@@ -1,0 +1,1901 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Plantas: forro, elétrica (simbologias, circuitos, legenda), revestimentos (simbologias, piso, parede e teto,
+    cálculo quantitativo, soleiras e bits)</title>
+
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet" />
+  <link href="../template/css/cores.css" rel="stylesheet" />
+  <link href="../template/css/modal-100.css" rel="stylesheet" />
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css" />
+  <link href="../template/css/sncload.css" rel="stylesheet" />
+  <link href="../template/css/magnific-popup.css" rel="stylesheet" />
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet" />
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet" />
+  <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet" />
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  <!--[if gte mso 9
+      ]><xml>
+        <mso:CustomDocumentProperties>
+          <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
+            msdt:dt="string"
+            >Paulo Ricardo Soveral
+            Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
+          >
+          <mso:Order msdt:dt="string">46914400.0000000</mso:Order>
+          <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author
+            msdt:dt="string"
+            >Paulo Ricardo Soveral
+            Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author
+          >
+          <mso:ContentTypeId msdt:dt="string"
+            >0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId
+          >
+        </mso:CustomDocumentProperties>
+      </xml><!
+    [endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo" />
+  <!-- /MARCA D´ÁGUA -->
+
+  <div id="sncloader" class="over-loader">
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+
+  <header id="topo" class="senac no-print">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de Interiores</h1>
+      <div id="logo-senac">
+        <img src="../template/images/logo-senac.png" alt="logo do senac" />
+      </div>
+    </div>
+    <div id="sombra"></div>
+  </header>
+
+
+
+  <div id="booklet" class="">
+    <header class="no-print container margem-botao">
+      <!-- BTO IMPRIMIR -->
+
+      <!-- /BTO IMPRIMIR -->
+    </header>
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <section class="paginas">
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <div class="pagina">
+        <div class="bloco bloco1">
+          <div class="container">
+            <div class="grupo-imprimir no-print">
+              <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+                <span class="fa fa-print"></span> <span>Imprimir</span>
+              </button>
+            </div>
+            <h2>Plantas: forro, elétrica (simbologias, circuitos, legenda), revestimentos (simbologias, piso, parede e
+              teto, cálculo quantitativo, soleiras e bits)</h2>
+            <p>O projeto executivo de <i>design</i> de interiores desempenha um papel fundamental ao assegurar que a
+              visão do
+              <i>designer</i> seja executada com precisão e eficiência. Ele proporciona informações detalhadas sobre
+              medidas,
+              materiais, acabamentos e outros elementos a serem utilizados no projeto, garantindo a correta
+              especificação de todos os detalhes. Isso ajuda a evitar erros durante a execução.
+            </p>
+            <p>Dessa forma, o projeto executivo funciona como uma ferramenta de comunicação entre o <i>designer</i> e os
+              profissionais responsáveis pela execução, como prestadores de serviços e fornecedores. Ele deve considerar
+              rigorosamente as especificações e normas técnicas pertinentes, assegurando que o projeto seja realizado
+              conforme planejado. </p>
+            <p>Neste sentido, a representação gráfica em vista superior, conhecida como “planta”, desempenha um papel
+              primordial no projeto executivo, comunicando diversos detalhamentos importantes para a execução de mão de
+              obra. Veja agora cada uma delas. </p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="painel painel-projeto1">
+                <button type="button" class="bt-projeto bt-projeto1" data-toggle="modal"
+                  data-target="#modal-projeto1"></button>
+                <button type="button" class="bt-projeto bt-projeto2" data-toggle="modal"
+                  data-target="#modal-projeto2"></button>
+                <button type="button" class="bt-projeto bt-projeto3" data-toggle="modal"
+                  data-target="#modal-projeto3"></button>
+                <button type="button" class="bt-projeto bt-projeto4" data-toggle="modal"
+                  data-target="#modal-projeto4"></button>
+                <button type="button" class="bt-projeto bt-projeto5" data-toggle="modal"
+                  data-target="#modal-projeto5"></button>
+                <button type="button" class="bt-projeto bt-projeto6" data-toggle="modal"
+                  data-target="#modal-projeto6"></button>
+                <button type="button" class="bt-projeto bt-projeto7" data-toggle="modal"
+                  data-target="#modal-projeto7"></button>
+                <button type="button" class="bt-projeto bt-projeto8" data-toggle="modal"
+                  data-target="#modal-projeto8"></button>
+                <button type="button" class="bt-projeto bt-projeto9" data-toggle="modal"
+                  data-target="#modal-projeto9"></button>
+                <button type="button" class="bt-projeto bt-projeto10" data-toggle="modal"
+                  data-target="#modal-projeto10"></button>
+                <button type="button" class="bt-projeto bt-projeto11" data-toggle="modal"
+                  data-target="#modal-projeto11"></button>
+                <button type="button" class="bt-projeto bt-projeto12" data-toggle="modal"
+                  data-target="#modal-projeto12"></button>
+              </div>
+            </div>
+
+            <div class="acessivel print">
+              <h4>Plantas</h4>
+              <p>Conforme estudado em unidades curriculares anteriores, no contexto do <i>design</i> de
+                interiores, uma
+                planta refere-se a um desenho técnico que representa a disposição espacial de um ambiente. São
+                desenhos geralmente representados em vista superior e oferecem uma visão detalhada da distribuição
+                de móveis, paredes, portas, janelas e outros elementos arquitetônicos dentro de um espaço. As
+                plantas são essenciais para o planejamento e a visualização de um projeto de <i>design</i> de
+                interiores,
+                permitindo que clientes, executores, prestadores de serviços e fornecedores entendam a organização
+                do espaço, o fluxo de circulação e a relação entre diferentes áreas funcionais.</p>
+              <p>No detalhamento do projeto, é crucial que o <i>designer</i> elabore diversos tipos de plantas,
+                como
+                planta baixa, planta de forro, planta elétrica, planta hidráulica, planta de revestimentos (piso e
+                parede), planta de acabamentos (tintas e papel de parede), planta de iluminação (luminotécnica) e
+                planta de ar-condicionado. Esses desenhos fornecem orientação, eliminam incertezas e asseguram que
+                todos os envolvidos estejam alinhados com a visão do projeto. A precisão é fundamental para evitar
+                erros e retrabalhos dispendiosos.</p>
+              <p>Em resumo, as plantas são a principal ferramenta para transformar a visão criativa do
+                <i>designer</i> em
+                realidade.
+              </p>
+              <img src="imgs/fig01.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig01_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/fig01.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Planta baixa
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Prancha de projeto em planta baixa de leiaute, com a distribuição do
+                mobiliário de um apartamento integrado com cozinha, sala de jantar, estar e dormitório e um
+                banheiro. Na planta baixa estão elementos técnicos como cotas, linhas de marcação dos cortes e
+                indicação do norte. Na lateral da planta está a legenda de todos os elementos que constam no
+                projeto.</p>
+              <h4>Forro</h4>
+              <p>No <i>design</i> de interiores, o forro refere-se à superfície superior de um ambiente,
+                geralmente composta
+                de materiais como gesso, madeira, PVC (policloreto de vinila), metal, entre outros, que cobrem a
+                estrutura do teto. Essa cobertura pode ser plana, inclinada, decorada ou simples, desempenhando um
+                papel importante tanto estética quanto funcionalmente.</p>
+              <p>Quanto à estética, o forro pode influenciar significavemente a aparência geral de um espaço. Ele
+                pode ser utilizado para criar uma sensação de altura ou de acolhimento, dependendo do material e
+                do
+                <i>design</i> escolhidos. Além disso, o forro pode ser personalizado com acabamentos como pintura,
+                textura,
+                molduras e iluminação embutida, adicionando interesse visual e complementando o estilo do
+                ambiente.
+              </p>
+              <p>Quanto à funcionalidade, o forro desempenha várias funções importantes no <i>design</i> de
+                interiores. Ele
+                ajuda a esconder e proteger instalações elétricas, dutos de ar-condicionado, tubulações e outras
+                estruturas, proporcionando um ambiente mais limpo e organizado. Além disso, o forro pode
+                contribuir
+                para o isolamento acústico e térmico do ambiente, melhorando o conforto das pessoas que frequentam
+                aquele lugar.</p>
+              <p>Em resumo, o forro é uma parte essencial do <i>design</i> de interiores, como dito anteriormente,
+                tanto
+                esteticamente quanto funcionalmente. Ele não apenas define a atmosfera de um espaço, mas também
+                desempenha um papel crucial na organização e no conforto do ambiente. Portanto, sua seleção e
+                execução devem ser cuidadosamente consideradas durante o processo de <i>design</i>.</p>
+              <div class="caixa-destaque">
+                <p>Na unidade curricular <b>Projetar iluminação de interiores</b>, no conteúdo referente a forros,
+                  você
+                  teve acesso a informações sobre os tipos de forros e os detalhes e acabamentos disponíveis.
+                  Esses detalhes incluem sancas abertas, fechadas e invertidas, bem como rebaixos, tabicas, rasgos
+                  e cortineiros. Vale a pena revisar esse conteúdo.
+                <p>Confira este exemplo de detalhamento de forro: </p>
+              </div>
+              <img src="imgs/fig02.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig02_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/fig02.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Planta de forro
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Exemplo de projeto de detalhamento de forro. Na parte esquerda da
+                prancha está representada uma planta em vista superior com medidas gerais do forro e indicação de
+                detalhes. Na lateral direita desta planta está a legenda e dois detalhes. O primeiro detalhe é
+                referente ao cortineiro iluminado e o segundo é referente à tabica de gesso.</p>
+              <h4>Rodateto, tabica e bits</h4>
+              <p>Um rodateto é uma moldura instalada onde as paredes encontram o teto. Ele é projetado para cobrir
+                a junção entre a parede e o teto, proporcionando um acabamento estético e muitas vezes funcional.
+                Rodatetos podem ser feitos de diversos materiais, como madeira, gesso, poliuretano ou até mesmo
+                metal, e vêm em uma variedade de estilos e <i>designs</i> para complementar diferentes estilos
+                decorativos. Além de sua função estética, os rodatetos também podem ocultar imperfeições na junção
+                entre a parede e o teto e ajudar a direcionar a atenção para detalhes arquitetônicos específicos.
+              <p>Já a tabica é uma pequena canaleta instalada no encontro entre o forro e as paredes, criando um
+                detalhe visual discreto. As tabicas proporcionam acabamento entre a parede e o forro, funcionando
+                como uma junta de dilatação e prevenindo trincas no forro devido à movimentação natural dos
+                materiais. Elas evitam que o forro encoste na alvenaria, já que cada material se movimenta de
+                maneira diferente, o que poderia gerar trincas caso estivessem em contato direto. </p>
+              <p>Os bits são peças que combinam as funções de rodateto e tabica, proporcionando um acabamento
+                estético enquanto também previnem as trincas causadas pela movimentação dos materiais. </p>
+              <img src="imgs/fig03.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig03.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/fig03.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Detalhes de forro de gesso
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">A ilustração mostra dois detalhes: o primeiro é referente a um
+                cortineiro em corte lateral. Esse cortineiro é iluminado e contém 15 cm de afastamento da parede.
+                O segundo detalhe é referente à tabica de gesso. Essa tabica tem 3 cm de largura e 2 cm de altura.
+              </p>
+              <h4>Elétrica</h4>
+              <p>Ao longo do curso de <i>design</i> de interiores, você já teve contato com alguns conceitos de
+                instalações elétricas. Na unidade curricular <b>Estruturar concepção projetual de <i>design</i> de
+                  interiores</b>, você conheceu alguns símbolos de interruptores e tomadas que auxiliam no
+                levantamento
+                métrico. Já na unidade curricular <b>Projetar iluminação de interiores</b>, seu conhecimento sobre
+                tipos
+                de instalações, pontos de tomadas, interruptores e simbologias foi aprofundado. Você aprendeu a
+                interpretar a planta baixa de um projeto elétrico e a compreender as atribuições do
+                <i>designer</i> nesse
+                tipo de projeto.
+              </p>
+              <p>Agora, nesta unidade curricular, será apresentado um projeto executivo com todos os detalhes
+                necessários para que o seu projeto possa ser executado com precisão. </p>
+              <img src="imgs/fig04.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig04_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/fig04.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Planta de pontos elétricos e hidráulicos
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Exemplo de planta baixa de pontos elétricos e hidráulicos com a
+                distribuição de tomadas, interruptores e pontos de água e esgoto. Na lateral da planta está a
+                legenda de todos os elementos que constam no projeto com suas simbologias.</p>
+              <p>Em etapas anteriores do projeto, o <i>designer</i> já definiu a localização estratégica dos
+                pontos de
+                tomadas e interruptores, considerando a distribuição do mobiliário para garantir fácil acesso e
+                atender às demandas dos ocupantes. </p>
+              <p>O aspecto essencial de um detalhamento de projeto elétrico é informar ao instalador, prestador de
+                serviço ou construtor o que deve ser feito na hora da execução. Portanto, é crucial que todas as
+                informações estejam presentes nesta planta. Para isso, além da planta baixa com a simbologia
+                devidamente sinalizada e cotada, também é preciso indicar em uma legenda lateral as informações de
+                simbologia de pontos existentes (em caso de projetos de reforma), simbologia de pontos novos a
+                serem executados com a informação da altura do ponto desde o piso até o eixo deste ponto e demais
+                informações necessárias. </p>
+              <div class="caixa-destaque">
+                <p>É fundamental diferenciar os pontos novos dos pontos existentes. </p>
+              </div>
+              <p>Com relação à simbologia de pontos elétricos, vale destacar que, atualmente, não existe uma norma
+                técnica que regulamente essa representação. Por muitos anos, seguiu-se a ABNT NBR 5444 – Símbolos
+                gráficos para instalações elétricas prediais, de 1989, mas, em 2014, ela foi cancelada pela ABNT
+                sem substituição. Mesmo assim, a utilização da simbologia presente na norma ainda é muito comum
+                entre <i>designers</i>, arquitetos e engenheiros. O profissional pode optar por definir sua
+                própria
+                simbologia, desde que ela esteja devidamente informada na legenda da prancha de detalhamento.</p>
+              <p>No material complementar desta unidade curricular, você encontrará uma tabela com exemplos das
+                simbologias mais utilizadas</p>
+              <p>Também é importante informar no projeto os circuitos elétricos, definindo o acionamento das
+                lâmpadas. A planta de circuito é um desenho que mostra a distribuição de cabos ligados aos
+                interruptores, indicando qual interruptor acende qual luminária específica. </p>
+              <img src="imgs/fig05.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig05_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/fig05.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Planta de circuitos
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Exemplo de planta baixa de circuitos com a distribuição de luminárias
+                e interruptores que estarão interligados para o acionamento de cada luminária. Na lateral da
+                planta está a legenda de todos os elementos que constam no projeto.</p>
+              <img src="imgs/fig06.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig06_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/fig06.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Detalhes
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Exemplo de planta de iluminação com a distribuição de luminárias que
+                farão a iluminação do ambiente. Na lateral da planta, está temos a legenda de todos os elementos
+                que constam no projeto.</p>
+              <h4>Revestimentos</h4>
+              <p>Em <i>design</i> de interiores, os revestimentos referem-se aos materiais aplicados nas
+                superfícies de
+                paredes, pisos e tetos para valorizar tanto a estética quanto a funcionalidade de um espaço. Esses
+                materiais desempenham um papel fundamental no resultado desejado para o projeto, definindo o
+                estilo, a textura, a paleta de cores e as sensações de um ambiente. Além disso, os revestimentos
+                também podem influenciar aspectos funcionais, como a segurança, a facilidade de limpeza e a
+                acústica do espaço.</p>
+              <p>A importância estética dos revestimentos reside na sua capacidade de transformar visualmente um
+                ambiente. Eles podem adicionar profundidade, dimensão e interesse visual, criando uma sensação de
+                harmonia e equilíbrio no espaço. A escolha dos revestimentos, como porcelanatos, cerâmicas,
+                azulejos, papéis de parede, tecidos, madeira, pedra, entre outros, permite aos <i>designers</i>
+                expressar
+                a personalidade do cliente e criar propostas únicas. </p>
+              <div class="caixa-destaque">
+                <p>Você já teve um primeiro contato com esse assunto na unidade curricular <b>Realizar concepção
+                    técnica do projeto de interiores</b>, na qual foram apresentadas as características dos
+                  materiais de
+                  revestimento. Agora, você aprenderá como representar esses materiais no projeto executivo. </p>
+              </div>
+              <p>As plantas de revestimento são chamadas de "paginação" e podem representar a disposição do
+                material que será instalado tanto no piso quanto nas paredes e até mesmo no teto. A paginação
+                refere-se ao arranjo e à disposição dos materiais de revestimento, como cerâmicas, porcelanatos,
+                pedras, tacos ou laminados de madeira, vinílicos, entre outros, para criar padrões visuais
+                interessantes e funcionais. Esses padrões podem variar desde os simples, como a colocação em
+                alinhamento reto, até os mais complexos, como espinha de peixe, escama, mosaico, entre outros.
+              </p>
+              <img src="imgs/fig07.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig07.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/fig07.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Tipos de paginação
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Ilustração com oito tipos diferentes de formas de assentamento de
+                pisos. Quatro modelos estão na parte superior e as outros quatro na parte inferior da imagem. A
+                primeira refere-se ao tipo de assentamento com alinhamento vertical, no qual as peças são
+                alinhadas lado a lado na maior medida. Ao lado está a opção de alinhamento horizontal, na qual as
+                peças encontram-se unidas pela menor medida da peça. A próxima opção é referente ao alinhamento
+                diagonal, no qual as peças são posicionadas em ângulo de 45°. Por último, na linha superior dos
+                exemplos, está o tipo de assentamento em amarração, no qual as peças são intercaladas usando o
+                eixo de cada peça como referência. Nas opções da parte inferior estão os tipos de assentamento em
+                damas, chevron, escama e espinha de peixe.</p>
+              <p>Inicialmente, é importante que o <i>designer</i> estude e defina qual será o melhor
+                aproveitamento do
+                material escolhido. Dependendo dessa definição, as peças podem precisar de mais recortes, o que
+                influencia a quantidade de material, a mão de obra e o tempo necessário para o acabamento do
+                projeto.</p>
+              <p>Posteriormente, na etapa de projeto executivo, a paginação tem o objetivo de demonstrar como será
+                feita a instalação do revestimento no ambiente. Nesse detalhamento, o profissional precisa
+                representar de forma clara e objetiva todos os elementos necessários para que tudo seja executado
+                de acordo com o projeto. Para isso, será necessário utilizar uma série de <b>simbologias</b>.</p>
+              <p>O local de início (primeira peça a ser instalada) é marcado por uma seta, chamada de <b>seta de
+                  início de paginação</b>, para que o instalador saiba por onde começar e tenha a orientação de
+                sentido
+                a ser seguida para as próximas peças. </p>
+              <img src="imgs/fig08.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig08.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/fig08.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Ínicio de paginação de piso
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Planta baixa de um ambiente que contém uma porta de acesso no canto
+                inferior esquerdo e parede chanfrada no canto superior esquerdo. As outras paredes formam ângulos
+                de 90º. No canto inferior direito está uma peça cinza que representa um piso no formato retangular
+                e sobre essa peça está representada uma seta que indica o início da instalação desse piso no
+                ambiente, informando a direção de instalação.</p>
+              <p>Para organizar as informações do tipo de acabamento que será usado no piso, na parede, no teto e
+                no rodapé, o <i>designer</i> pode criar sua própria maneira de comunicação no projeto, já que não
+                existe
+                uma normativa específica que defina como isso deve ser representado. No entanto, é essencial que
+                exista uma simbologia clara na planta baixa e que todas as especificações dos produtos a serem
+                utilizados sejam informadas em uma legenda. Confira algumas sugestões de simbologias que podem ser
+                utilizadas: </p>
+              <img src="imgs/fig09.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig09.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/fig09.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Simbologia de acabamentos
+                <br>
+                Fonte: Senac EAD (2024)
+              <p class="acessivel no-print">Ilustração de quatro formas geométricas que estão sendo utilizadas
+                para representar a simbologia de projetos de revestimentos. A primeira forma é um quadrado e
+                representa a simbologia para piso. A segunda forma é um retângulo e representa a simbologia de
+                especificação para as paredes. A terceira forma é um círculo e indica o acabamento do teto e a
+                última forma é um hexágono que representa o rodapé.</p>
+              <p>Outras simbologias que devem estar presentes nas plantas de paginação são as cotas de nível e a
+                seta de acesso principal. O uso de cotas de nível é essencial para garantir que todos os elementos
+                de um projeto de <i>design</i> de interiores estejam em proporções de altura adequadas dentro do
+                espaço.
+                Elas são especialmente importantes em projetos que envolvem desníveis ou mudanças de altura
+                significativas, como degraus, escadas e mezaninos. As cotas de nível são frequentemente
+                representadas em plantas baixas e elevações (cortes laterais) para auxiliar na compreensão do
+                projeto e na comunicação com os construtores. </p>
+              <img src="imgs/fig10.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig10.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/fig10.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Simbologia de cota de nível e acesso principal
+                <br>
+                Fonte: Senac EAD (2024)
+              <p class="acessivel no-print">
+                Ilustração com três símbolos. O primeiro refere-se a uma cota de nível representada em planta
+                baixa. Esta simbologia é representada por um círculo dividido em quatro partes, em que a parte
+                superior esquerda e a parte inferior direita estão pintadas na cor cinza, logo ao lado está
+                indicada a medida da cota em 0.00. A próxima simbologia é uma cota de nível usada para
+                representações de vistas ou cortes lateriais. Ela é feita com um triângulo invertido dividido ao
+                meio, em que a parte esquerda está pintada de cinza e logo acima está indicada a medida da cota em
+                0.00. O terceiro símbolo significa o acesso principal de entrada de um ambiente e ele é
+                representado por uma seta dentro de um círculo.
+              </p>
+              <h4>Soleiras</h4>
+              <p>A soleira é uma peça de construção, geralmente feita de pedra (normalmente granito), metal,
+                madeira
+                ou outro material resistente, que é instalada no limiar de uma porta para fornecer suporte
+                estrutural e proteger a entrada. Ela também pode servir para fazer a transição entre ambientes ou
+                entre diferentes tipos de revestimentos. Além de sua função prática, as soleiras desempenham um
+                papel estético significativo, contribuindo para a harmonia e a continuidade visual do
+                <i>design</i> de
+                interiores.
+              </p>
+              <img src="imgs/fig11.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig11.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/fig11.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Soleira
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Ilustração de um círculo em tons de cinza, que detalha uma vista
+                superior (planta baixa) de projeto de soleira em granito. A soleira divide dois ambientes com
+                pisos diferentes, mas com mesmo nível, e contém a mesma espessura das paredes laterais de 15
+                centímetros e largura de 80 centímetros</p>
+              <img src="imgs/fig12.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig12.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/fig12.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Soleira
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Ilustração de detalhes em tons de cinza de cortes lateriais de
+                soleiras em granito. A imagem é composta de dois detalhes. O primeiro está representando uma
+                soleira em granito de porta que dá acesso à área externa e com desnível de 15 cm (degrau). No
+                segundo detalhe está o corte lateral de uma peça de soleira em granito em ambiente interno no
+                mesmo nivelamento.</p>
+              <h4>Perfil de transição</h4>
+              <p>Um perfil de transição, no contexto da construção ou do <i>design</i> de interiores, é uma peça
+                utilizada
+                para criar uma transição suave e estética entre dois tipos diferentes de revestimento de piso,
+                como
+                carpete para piso laminado, porcelanato para madeira, entre outros. Esses perfis são projetados
+                para
+                cobrir a borda exposta dos materiais de piso adjacentes, proporcionando um acabamento limpo e
+                evitando possíveis tropeços. Além disso, os perfis de transição ajudam a proteger as bordas dos
+                pisos contra danos causados pelo tráfego constante. Disponíveis em diversos materiais, como metal,
+                madeira e plástico, os perfis de transição são oferecidos em diferentes tipos para atender às
+                necessidades tanto estéticas quanto funcionais de cada situação específica.</p>
+              <img src="imgs/fig13.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig13.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/fig13.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Perfil de transição em alumínio
+                <br>
+                Fonte: Profilpas (c2024c)
+              </p>
+              <p class="acessivel no-print">Detalhamento de perfil de alumínio que faz a transição entre dois
+                pisos de modelos diferentes que estão no mesmo nivelamento. Na parte esquerda da imagem está o
+                detalhamento técnico do perfil em corte lateral e na parte direita da imagem está um círculo
+                mostrando a foto deste perfil aplicado no ambiente. No ambiente está um piso de porcelanato de
+                tonalidade bege e um piso madeirado interligados pelo perfil de transição em alumínio.</p>
+              <img src="imgs/fig14.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig14.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/fig14.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Perfil de transição em latão
+                <br>
+                Fonte: Profilpas (c2024b)
+              </p>
+              <p class="acessivel no-print">Detalhamento de perfil em latão que faz a transição entre dois pisos
+                de modelos diferentes que estão no mesmo nivelamento. Na parte esquerda da imagem está um círculo
+                mostrando a foto do perfil aplicado no ambiente. No ambiente está um piso amadeirado interligado
+                pelo perfil de transição em latão a um piso porcelanato em tom claro. No lado direito da imagem
+                está o detalhamento técnico desse perfil em corte lateral.</p>
+              <img src="imgs/fig15.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig15.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                  src="imgs/fig15.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Perfil de transição em aço inox
+                <br>
+                Fonte: Profilpas (c2024b)
+              </p>
+              <p class="acessivel no-print">Detalhamento de perfil em aço inox que faz a transição entre dois
+                pisos de modelos diferentes que estão no mesmo nivelamento. Na parte esquerda da imagem está o
+                detalhamento técnico do perfil em corte lateral e na parte direita da imagem está um círculo
+                mostrando a foto desse perfil aplicado no ambiente. No ambiente há um piso porcelanato de
+                tonalidade bege claro e um piso porcelanato mais escuro interligados pelo perfil de transição.</p>
+              <h4>Rodapé</h4>
+              <p>O rodapé é uma faixa de material instalada ao longo da base de uma parede, onde ela encontra o
+                piso. Geralmente feito de materiais como madeira, PVC, MDF (<i>medium density fiberboard</i> ou
+                fibras de
+                média densidade), metal ou outros duráveis, o rodapé desempenha várias funções importantes. Ele
+                protege a base da parede contra danos causados por varreduras, aspiradores de pó e impactos leves,
+                além de ocultar a junção entre a parede e o piso, proporcionando um acabamento estético.
+                Adicionalmente, o rodapé serve como elemento decorativo para complementar o estilo do espaço.
+                Disponível em diversas alturas, larguras, cores e estilos, o rodapé é escolhido de acordo com as
+                preferências de <i>design</i> e as necessidades específicas de cada ambiente. </p>
+              <img src="imgs/fig16.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig16_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/fig16.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Modelos de rodapés
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Detalhamento de três diferentes modelos de rodapé. São três detalhes
+                em corte lateral. No primeiro está sendo representado um rodapé convencional, no segundo detalhe
+                está o corte lateral de um rodapé embutido que fica alinhado com o acabamento de reboco. O
+                terceiro detalhe mostra o corte de um rodapé invertido que é um modelo no qual o rodapé fica
+                recuado em relação ao acabamento de reboco da parede.</p>
+              <p>Confira um exemplo de uma planta de paginação de pisos com todos esses elementos comentados no
+                texto: </p>
+              <img src="imgs/fig17.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig17_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/fig17.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Planta de paginação
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Planta baixa de paginação de um apartamento integrado estilo loft.
+                Logo no primeiro ambiente, denominado como dormitório e sala, percebe-se, através da simbologia,
+                que o acabamento do piso será em porcelanato amadeirado acetinado da marca Ceusa, borda reta. O
+                acabamento das paredes é em pintura com tinta acrílica, toque de seda da Suvinil, cor papel
+                picado, e o acabamento do teto em pintura com tinta acrílica, toque de seda da Suvinil, cor
+                branca. Está demarcada a cota de nível, sendo 0.00. Neste mesmo ambiente, o rodapé será em
+                poliestireno frisado, 15 cm. Santa Luzia, cor branca. No ambiente ao lado denominado Cozinha e
+                serviço, o piso será em porcelanato natural cinza-concreto da marca Portobello, acabamento das
+                paredes é em pintura com tinta acrílica, toque de seda da Suvinil, cor papel picado, e o
+                acabamento do teto em pintura, tinta acrílica, toque de seda da Suvinil, cor branca. A cota de
+                nível permanece a mesma, sendo 0.00. O banheiro, que está localizado no canto inferior esquerdo da
+                planta baixa, mostra que o piso segue o mesmo modelo e a mesma cota de nível da sala e as
+                simbologias indicam que o piso do box será em porcelanato retificado da marca Eliane e, neste
+                ponto, a cota de nível desce 5 cm, ficando marcada como -0.05. O acabamento das paredes serão em
+                revestimento brilhante Portobelo gap white retificado e o acabamento do teto em pintura, tinta
+                acrílica, toque de seda Suvinil, cor branca. Na lateral direita da planta baixa está uma legenda
+                que especifica todos esses detalhes indicados nas simbologias.</p>
+              <div class="caixa-destaque">
+                <p>Observações importantes </p>
+                <ol>
+                  <li>A seta de início de paginação deve ficar posicionada exatamente sobre a primeira peça a ser
+                    instalada no local. Se essa peça não estiver em um dos cantos que possa facilitar a
+                    identificação por parte do instalador, será necessário acrescentar uma cota de referência para
+                    definir esse início.</li>
+                  <li>Deve-se sempre representar no projeto de paginação o modelo do revestimento escolhido (peça)
+                    no
+                    seu tamanho real para que expresse a realidade do que será executado na obra e assim se ter um
+                    maior controle das peças que precisarão receber recortes.</li>
+                  <li>Deve-se considerar o melhor acabamento próximo às paredes. Recortes muito pequenos ou
+                    estreitos
+                    de revestimento junto às paredes, além de dificultarem a instalação, evidenciam o
+                    desnivelamento.</li>
+                  <li>Quando não for possível evitar a quebra de revestimento (recortes), é mais interessante que
+                    essa
+                    quebra aconteça próximo a paredes que terão móveis que ocultem esse detalhe.</li>
+                  <li>Alguns revestimentos contêm transpasse, como alguns modelos de porcelanatos e pisos
+                    laminados.
+                    Nestes casos, sempre verifique na ficha técnica do produto a medida mínima exigida.</li>
+                  <li>Para projetos de revestimento em porcelanato, cerâmica ou ladrilhos, nunca se esqueça de
+                    especificar também o tipo de rejunte a ser utilizado, a cor desse rejunte e o espaçamento
+                    entre
+                    as peças.</li>
+                </ol>
+              </div>
+              <img src="imgs/fig18.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="imgs/fig18_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/fig18.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">Prancha de paginação (pisos e paredes)
+                <br>
+                Fonte: Senac EAD (2024)
+              </p>
+              <p class="acessivel no-print">Exemplo de detalhamento de paginação de pisos e parede. Na parte
+                esquerda da prancha está representada uma planta com medidas e indicação de detalhes dos tipos de
+                pisos que serão utilizados no projeto. Na lateral direita dessa planta está a representação
+                técnica da paginação das paredes do banheiro. Abaixo da planta baixa, localizada à esquerda da
+                prancha, está um quadro com a legenda informando todos os elementos que contam no projeto.</p>
+              <p>Portanto, a representação correta da paginação no projeto executivo é essencial para garantir que
+                a instalação seja feita conforme o <i>design</i> planejado, evitando erros e garantindo o resultado
+                desejado. Na planta de paginação, deve-se incluir a localização exata de cada peça de
+                revestimento, os padrões a serem seguidos, os cortes necessários e as especificações de material e
+                cor. Essa planta serve como um guia detalhado para os profissionais de instalação, assegurando que
+                o <i>design</i> do revestimento seja executado de acordo com a visão do <i>designer</i>. </p>
+              <h4>Como calcular revestimentos</h4>
+              <p>O cálculo de quantitativo de materiais necessários para revestimento é um processo essencial no
+                <i>design</i> de interiores para assegurar que se indique a quantidade correta a ser adquirida.
+                Esse cálculo envolve algumas etapas:
+              </p>
+              <div class="acessivel print">
+                <h4>Levantamento das medidas </h4>
+                <p>Medir a área que será revestida. Para pisos e revestimentos de parede, multiplica-se a largura
+                  do ambiente pelo comprimento ou pela altura de cada superfície do ambiente. Para áreas
+                  irregulares, pode ser necessário dividir em segmentos mais simples ou usar fórmulas específicas
+                  para formas geométricas complexas. Nesses casos, normalmente utilizam-se <i>softwares</i> que
+                  fazem
+                  esse cálculo de forma mais rápida e fácil. </p>
+                <img src="imgs/fig19.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                <a href="imgs/fig19.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                    src="imgs/fig19.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">Medidas
+                  <br>
+                  Fonte: Senac EAD (2024)
+                </p>
+                <p class="acessivel no-print">Planta baixa de uma cozinha em formato retangular, em que a largura
+                  do espaço mede 1.80 m marcado com uma cota na cor laranja no sentido horizontal e o comprimento
+                  da cozinha mede 5.95 m marcado com uma cota laranja no sentido vertical</p>
+                <h4>Desperdício e sobras </h4>
+                <p>Após realizar a paginação dos revestimentos, conte o número de peças que foram distribuídas no
+                  seu desenho. Adicione uma margem de segurança para cortes e perdas. Geralmente, adiciona-se de
+                  10% a 15% no total das peças, dependendo do tipo de material e da complexidade do assentamento
+                  escolhido em projeto. Esse processo evita a falta de materiais durante a execução da obra. </p>
+              </div>
+              <h4>Como calcular tintas</h4>
+              <p>Para calcular a quantidade de tinta realize o seguinte procedimento: </p>
+              <div class="acessivel print">
+                <h4>Cobertura da tinta</h4>
+                <p>Verifique a cobertura da tinta (quantos metros quadrados um litro de tinta cobre) e divida a
+                  área
+                  total de paredes pela cobertura indicada pelo fabricante. É importante descontar portas e
+                  janelas
+                  (aberturas) nesse quantitativo.</p>
+                <h4>Estrutura da parede e cores</h4>
+                <p>Verifique se é uma primeira pintura realizada no ambiente diretamente na massa corrida ou massa
+                  acrílica, ou ainda se é uma sobreposição em paredes já pintadas. Cores claras exigem menos
+                  demãos
+                  para cobrir a cor, enquanto paredes mais escuras podem exigir uma base antes da nova cor.</p>
+                <h4>Caculadora de tinta</h4>
+                <p><i>Sites</i> de fabricantes de tintas contêm calculadoras <i>on-line</i> que consideram os
+                  parâmetros e as
+                  necessidades dos ambientes. Os resultados são bem precisos.</p>
+              </div>
+              <h4>Como calcular papel de parede</h4>
+              <p>Para calcular a aplicação de papel de parede, realize o seguinte processo: </p>
+              <div class="acessivel print">
+                <h4>Meça as paredes</h4>
+                <p> Meça a altura e largura de cada parede na qual você quer aplicar o papel.</p>
+                <h4>Calcule e some</h4>
+                <p>Calcule a área de cada parede para obter a área em m². Após isso, some todas as áreas das
+                  paredes.</p>
+                <h4>Repita o padrão</h4>
+                <p>O papel de parede contém desenhos e padronagens. Para manter um padrão alinhado, será
+                  necessário
+                  comprar um pouco mais de material para garantir que os desenhos tenham continuidade. Siga a
+                  orientação do fabricante para não errar nessa compra extra.</p>
+                <h4>Adicione margem de segurança</h4>
+                <p>Assim como nos revestimentos, é interessante adicionar um percentual de 10% a 15% da área total
+                  para garantir a instalação sem falta de produto.</p>
+                <h4>Verifique o rolo</h4>
+                <p>Verifique na embalagam do papel de parede quantos m² um rolo cobrirá. Faça a divisão da área
+                  total
+                  pelo número de metros quadrados que cada rolo cobre e compre quantos rolos serão necessários.
+                </p>
+              </div>
+              <h4>Encerramento</h4>
+              <p>Você chegou ao fim deste conhecimento e deve ter percebido a importância de se elaborar um
+                projeto executivo bem detalhado, pois ele desempenha uma etapa crucial para se atingir o resultado
+                final com precisão e sucesso. O projeto executivpo serve como um guia detalhado que traduz a visão
+                criativa do <i>designer</i>, fornecendo diretrizes precisas para a execução de toda a obra,
+                desempenhando
+                um papel fundamental na comunicação entre o <i>designer</i>, os clientes e os profissionais envolvidos
+                na
+                execução, garantindo uma compreensão clara e consistente das especificações e dos requisitos do
+                projeto.</p>
+              <p>Você está pronto para começar a elaborar os seus próprios projetos executivos? </p>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto1" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Plantas</h4>
+                    <p>Conforme estudado em unidades curriculares anteriores, no contexto do <i>design</i> de
+                      interiores, uma
+                      planta refere-se a um desenho técnico que representa a disposição espacial de um ambiente. São
+                      desenhos geralmente representados em vista superior e oferecem uma visão detalhada da distribuição
+                      de móveis, paredes, portas, janelas e outros elementos arquitetônicos dentro de um espaço. As
+                      plantas são essenciais para o planejamento e a visualização de um projeto de <i>design</i> de
+                      interiores,
+                      permitindo que clientes, executores, prestadores de serviços e fornecedores entendam a organização
+                      do espaço, o fluxo de circulação e a relação entre diferentes áreas funcionais.</p>
+                    <p>No detalhamento do projeto, é crucial que o <i>designer</i> elabore diversos tipos de plantas,
+                      como
+                      planta baixa, planta de forro, planta elétrica, planta hidráulica, planta de revestimentos (piso e
+                      parede), planta de acabamentos (tintas e papel de parede), planta de iluminação (luminotécnica) e
+                      planta de ar-condicionado. Esses desenhos fornecem orientação, eliminam incertezas e asseguram que
+                      todos os envolvidos estejam alinhados com a visão do projeto. A precisão é fundamental para evitar
+                      erros e retrabalhos dispendiosos.</p>
+                    <p>Em resumo, as plantas são a principal ferramenta para transformar a visão criativa do
+                      <i>designer</i> em
+                      realidade.
+                    </p>
+                    <img src="imgs/fig01.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig01_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig01.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Planta baixa
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Prancha de projeto em planta baixa de leiaute, com a distribuição do
+                      mobiliário de um apartamento integrado com cozinha, sala de jantar, estar e dormitório e um
+                      banheiro. Na planta baixa estão elementos técnicos como cotas, linhas de marcação dos cortes e
+                      indicação do norte. Na lateral da planta está a legenda de todos os elementos que constam no
+                      projeto.</p>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto2" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Forro</h4>
+                    <p>No <i>design</i> de interiores, o forro refere-se à superfície superior de um ambiente,
+                      geralmente composta
+                      de materiais como gesso, madeira, PVC (policloreto de vinila), metal, entre outros, que cobrem a
+                      estrutura do teto. Essa cobertura pode ser plana, inclinada, decorada ou simples, desempenhando um
+                      papel importante tanto estética quanto funcionalmente.</p>
+                    <p>Quanto à estética, o forro pode influenciar significavemente a aparência geral de um espaço. Ele
+                      pode ser utilizado para criar uma sensação de altura ou de acolhimento, dependendo do material e
+                      do
+                      <i>design</i> escolhidos. Além disso, o forro pode ser personalizado com acabamentos como pintura,
+                      textura,
+                      molduras e iluminação embutida, adicionando interesse visual e complementando o estilo do
+                      ambiente.
+                    </p>
+                    <p>Quanto à funcionalidade, o forro desempenha várias funções importantes no <i>design</i> de
+                      interiores. Ele
+                      ajuda a esconder e proteger instalações elétricas, dutos de ar-condicionado, tubulações e outras
+                      estruturas, proporcionando um ambiente mais limpo e organizado. Além disso, o forro pode
+                      contribuir
+                      para o isolamento acústico e térmico do ambiente, melhorando o conforto das pessoas que frequentam
+                      aquele lugar.</p>
+                    <p>Em resumo, o forro é uma parte essencial do <i>design</i> de interiores, como dito anteriormente,
+                      tanto
+                      esteticamente quanto funcionalmente. Ele não apenas define a atmosfera de um espaço, mas também
+                      desempenha um papel crucial na organização e no conforto do ambiente. Portanto, sua seleção e
+                      execução devem ser cuidadosamente consideradas durante o processo de <i>design</i>.</p>
+                    <div class="caixa-destaque">
+                      <p>Na unidade curricular <b>Projetar iluminação de interiores</b>, no conteúdo referente a forros,
+                        você
+                        teve acesso a informações sobre os tipos de forros e os detalhes e acabamentos disponíveis.
+                        Esses detalhes incluem sancas abertas, fechadas e invertidas, bem como rebaixos, tabicas, rasgos
+                        e cortineiros. Vale a pena revisar esse conteúdo.
+                      <p>Confira este exemplo de detalhamento de forro: </p>
+                    </div>
+                    <img src="imgs/fig02.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig02_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig02.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Planta de forro
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Exemplo de projeto de detalhamento de forro. Na parte esquerda da
+                      prancha está representada uma planta em vista superior com medidas gerais do forro e indicação de
+                      detalhes. Na lateral direita desta planta está a legenda e dois detalhes. O primeiro detalhe é
+                      referente ao cortineiro iluminado e o segundo é referente à tabica de gesso.</p>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto3" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Rodateto, tabica e bits</h4>
+                    <p>Um rodateto é uma moldura instalada onde as paredes encontram o teto. Ele é projetado para cobrir
+                      a junção entre a parede e o teto, proporcionando um acabamento estético e muitas vezes funcional.
+                      Rodatetos podem ser feitos de diversos materiais, como madeira, gesso, poliuretano ou até mesmo
+                      metal, e vêm em uma variedade de estilos e <i>designs</i> para complementar diferentes estilos
+                      decorativos. Além de sua função estética, os rodatetos também podem ocultar imperfeições na junção
+                      entre a parede e o teto e ajudar a direcionar a atenção para detalhes arquitetônicos específicos.
+                    <p>Já a tabica é uma pequena canaleta instalada no encontro entre o forro e as paredes, criando um
+                      detalhe visual discreto. As tabicas proporcionam acabamento entre a parede e o forro, funcionando
+                      como uma junta de dilatação e prevenindo trincas no forro devido à movimentação natural dos
+                      materiais. Elas evitam que o forro encoste na alvenaria, já que cada material se movimenta de
+                      maneira diferente, o que poderia gerar trincas caso estivessem em contato direto. </p>
+                    <p>Os bits são peças que combinam as funções de rodateto e tabica, proporcionando um acabamento
+                      estético enquanto também previnem as trincas causadas pela movimentação dos materiais. </p>
+                    <img src="imgs/fig03.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig03.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig03.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Detalhes de forro de gesso
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">A ilustração mostra dois detalhes: o primeiro é referente a um
+                      cortineiro em corte lateral. Esse cortineiro é iluminado e contém 15 cm de afastamento da parede.
+                      O segundo detalhe é referente à tabica de gesso. Essa tabica tem 3 cm de largura e 2 cm de altura.
+                    </p>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto4" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Elétrica</h4>
+                    <p>Ao longo do curso de <i>design</i> de interiores, você já teve contato com alguns conceitos de
+                      instalações elétricas. Na unidade curricular <b>Estruturar concepção projetual de <i>design</i> de
+                        interiores</b>, você conheceu alguns símbolos de interruptores e tomadas que auxiliam no
+                      levantamento
+                      métrico. Já na unidade curricular <b>Projetar iluminação de interiores</b>, seu conhecimento sobre
+                      tipos
+                      de instalações, pontos de tomadas, interruptores e simbologias foi aprofundado. Você aprendeu a
+                      interpretar a planta baixa de um projeto elétrico e a compreender as atribuições do
+                      <i>designer</i> nesse
+                      tipo de projeto.
+                    </p>
+                    <p>Agora, nesta unidade curricular, será apresentado um projeto executivo com todos os detalhes
+                      necessários para que o seu projeto possa ser executado com precisão. </p>
+                    <img src="imgs/fig04.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig04_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig04.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Planta de pontos elétricos e hidráulicos
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Exemplo de planta baixa de pontos elétricos e hidráulicos com a
+                      distribuição de tomadas, interruptores e pontos de água e esgoto. Na lateral da planta está a
+                      legenda de todos os elementos que constam no projeto com suas simbologias.</p>
+                    <p>Em etapas anteriores do projeto, o <i>designer</i> já definiu a localização estratégica dos
+                      pontos de
+                      tomadas e interruptores, considerando a distribuição do mobiliário para garantir fácil acesso e
+                      atender às demandas dos ocupantes. </p>
+                    <p>O aspecto essencial de um detalhamento de projeto elétrico é informar ao instalador, prestador de
+                      serviço ou construtor o que deve ser feito na hora da execução. Portanto, é crucial que todas as
+                      informações estejam presentes nesta planta. Para isso, além da planta baixa com a simbologia
+                      devidamente sinalizada e cotada, também é preciso indicar em uma legenda lateral as informações de
+                      simbologia de pontos existentes (em caso de projetos de reforma), simbologia de pontos novos a
+                      serem executados com a informação da altura do ponto desde o piso até o eixo deste ponto e demais
+                      informações necessárias. </p>
+                    <div class="caixa-destaque">
+                      <p>É fundamental diferenciar os pontos novos dos pontos existentes. </p>
+                    </div>
+                    <p>Com relação à simbologia de pontos elétricos, vale destacar que, atualmente, não existe uma norma
+                      técnica que regulamente essa representação. Por muitos anos, seguiu-se a ABNT NBR 5444 – Símbolos
+                      gráficos para instalações elétricas prediais, de 1989, mas, em 2014, ela foi cancelada pela ABNT
+                      sem substituição. Mesmo assim, a utilização da simbologia presente na norma ainda é muito comum
+                      entre <i>designers</i>, arquitetos e engenheiros. O profissional pode optar por definir sua
+                      própria
+                      simbologia, desde que ela esteja devidamente informada na legenda da prancha de detalhamento.</p>
+                    <p>No material complementar desta unidade curricular, você encontrará uma tabela com exemplos das
+                      simbologias mais utilizadas</p>
+                    <p>Também é importante informar no projeto os circuitos elétricos, definindo o acionamento das
+                      lâmpadas. A planta de circuito é um desenho que mostra a distribuição de cabos ligados aos
+                      interruptores, indicando qual interruptor acende qual luminária específica. </p>
+                    <img src="imgs/fig05.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig05_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig05.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Planta de circuitos
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Exemplo de planta baixa de circuitos com a distribuição de luminárias
+                      e interruptores que estarão interligados para o acionamento de cada luminária. Na lateral da
+                      planta está a legenda de todos os elementos que constam no projeto.</p>
+                    <img src="imgs/fig06.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig06_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig06.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Detalhes
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Exemplo de planta de iluminação com a distribuição de luminárias que
+                      farão a iluminação do ambiente. Na lateral da planta, está temos a legenda de todos os elementos
+                      que constam no projeto.</p>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto5" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Revestimentos</h4>
+                    <p>Em <i>design</i> de interiores, os revestimentos referem-se aos materiais aplicados nas
+                      superfícies de
+                      paredes, pisos e tetos para valorizar tanto a estética quanto a funcionalidade de um espaço. Esses
+                      materiais desempenham um papel fundamental no resultado desejado para o projeto, definindo o
+                      estilo, a textura, a paleta de cores e as sensações de um ambiente. Além disso, os revestimentos
+                      também podem influenciar aspectos funcionais, como a segurança, a facilidade de limpeza e a
+                      acústica do espaço.</p>
+                    <p>A importância estética dos revestimentos reside na sua capacidade de transformar visualmente um
+                      ambiente. Eles podem adicionar profundidade, dimensão e interesse visual, criando uma sensação de
+                      harmonia e equilíbrio no espaço. A escolha dos revestimentos, como porcelanatos, cerâmicas,
+                      azulejos, papéis de parede, tecidos, madeira, pedra, entre outros, permite aos <i>designers</i>
+                      expressar
+                      a personalidade do cliente e criar propostas únicas. </p>
+                    <div class="caixa-destaque">
+                      <p>Você já teve um primeiro contato com esse assunto na unidade curricular <b>Realizar concepção
+                          técnica do projeto de interiores</b>, na qual foram apresentadas as características dos
+                        materiais de
+                        revestimento. Agora, você aprenderá como representar esses materiais no projeto executivo. </p>
+                    </div>
+                    <p>As plantas de revestimento são chamadas de "paginação" e podem representar a disposição do
+                      material que será instalado tanto no piso quanto nas paredes e até mesmo no teto. A paginação
+                      refere-se ao arranjo e à disposição dos materiais de revestimento, como cerâmicas, porcelanatos,
+                      pedras, tacos ou laminados de madeira, vinílicos, entre outros, para criar padrões visuais
+                      interessantes e funcionais. Esses padrões podem variar desde os simples, como a colocação em
+                      alinhamento reto, até os mais complexos, como espinha de peixe, escama, mosaico, entre outros.
+                    </p>
+                    <img src="imgs/fig07.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig07.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig07.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Tipos de paginação
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Ilustração com oito tipos diferentes de formas de assentamento de
+                      pisos. Quatro modelos estão na parte superior e as outros quatro na parte inferior da imagem. A
+                      primeira refere-se ao tipo de assentamento com alinhamento vertical, no qual as peças são
+                      alinhadas lado a lado na maior medida. Ao lado está a opção de alinhamento horizontal, na qual as
+                      peças encontram-se unidas pela menor medida da peça. A próxima opção é referente ao alinhamento
+                      diagonal, no qual as peças são posicionadas em ângulo de 45°. Por último, na linha superior dos
+                      exemplos, está o tipo de assentamento em amarração, no qual as peças são intercaladas usando o
+                      eixo de cada peça como referência. Nas opções da parte inferior estão os tipos de assentamento em
+                      damas, chevron, escama e espinha de peixe.</p>
+                    <p>Inicialmente, é importante que o <i>designer</i> estude e defina qual será o melhor
+                      aproveitamento do
+                      material escolhido. Dependendo dessa definição, as peças podem precisar de mais recortes, o que
+                      influencia a quantidade de material, a mão de obra e o tempo necessário para o acabamento do
+                      projeto.</p>
+                    <p>Posteriormente, na etapa de projeto executivo, a paginação tem o objetivo de demonstrar como será
+                      feita a instalação do revestimento no ambiente. Nesse detalhamento, o profissional precisa
+                      representar de forma clara e objetiva todos os elementos necessários para que tudo seja executado
+                      de acordo com o projeto. Para isso, será necessário utilizar uma série de <b>simbologias</b>.</p>
+                    <p>O local de início (primeira peça a ser instalada) é marcado por uma seta, chamada de <b>seta de
+                        início de paginação</b>, para que o instalador saiba por onde começar e tenha a orientação de
+                      sentido
+                      a ser seguida para as próximas peças. </p>
+                    <img src="imgs/fig08.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig08.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig08.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Ínicio de paginação de piso
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Planta baixa de um ambiente que contém uma porta de acesso no canto
+                      inferior esquerdo e parede chanfrada no canto superior esquerdo. As outras paredes formam ângulos
+                      de 90º. No canto inferior direito está uma peça cinza que representa um piso no formato retangular
+                      e sobre essa peça está representada uma seta que indica o início da instalação desse piso no
+                      ambiente, informando a direção de instalação.</p>
+                    <p>Para organizar as informações do tipo de acabamento que será usado no piso, na parede, no teto e
+                      no rodapé, o <i>designer</i> pode criar sua própria maneira de comunicação no projeto, já que não
+                      existe
+                      uma normativa específica que defina como isso deve ser representado. No entanto, é essencial que
+                      exista uma simbologia clara na planta baixa e que todas as especificações dos produtos a serem
+                      utilizados sejam informadas em uma legenda. Confira algumas sugestões de simbologias que podem ser
+                      utilizadas: </p>
+                    <img src="imgs/fig09.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig09.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig09.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Simbologia de acabamentos
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    <p class="acessivel no-print">Ilustração de quatro formas geométricas que estão sendo utilizadas
+                      para representar a simbologia de projetos de revestimentos. A primeira forma é um quadrado e
+                      representa a simbologia para piso. A segunda forma é um retângulo e representa a simbologia de
+                      especificação para as paredes. A terceira forma é um círculo e indica o acabamento do teto e a
+                      última forma é um hexágono que representa o rodapé.</p>
+                    <p>Outras simbologias que devem estar presentes nas plantas de paginação são as cotas de nível e a
+                      seta de acesso principal. O uso de cotas de nível é essencial para garantir que todos os elementos
+                      de um projeto de <i>design</i> de interiores estejam em proporções de altura adequadas dentro do
+                      espaço.
+                      Elas são especialmente importantes em projetos que envolvem desníveis ou mudanças de altura
+                      significativas, como degraus, escadas e mezaninos. As cotas de nível são frequentemente
+                      representadas em plantas baixas e elevações (cortes laterais) para auxiliar na compreensão do
+                      projeto e na comunicação com os construtores. </p>
+                    <img src="imgs/fig10.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig10.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig10.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Simbologia de cota de nível e acesso principal
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    <p class="acessivel no-print">
+                      Ilustração com três símbolos. O primeiro refere-se a uma cota de nível representada em planta
+                      baixa. Esta simbologia é representada por um círculo dividido em quatro partes, em que a parte
+                      superior esquerda e a parte inferior direita estão pintadas na cor cinza, logo ao lado está
+                      indicada a medida da cota em 0.00. A próxima simbologia é uma cota de nível usada para
+                      representações de vistas ou cortes lateriais. Ela é feita com um triângulo invertido dividido ao
+                      meio, em que a parte esquerda está pintada de cinza e logo acima está indicada a medida da cota em
+                      0.00. O terceiro símbolo significa o acesso principal de entrada de um ambiente e ele é
+                      representado por uma seta dentro de um círculo.
+                    </p>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto6" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Soleiras</h4>
+                    <p>A soleira é uma peça de construção, geralmente feita de pedra (normalmente granito), metal,
+                      madeira
+                      ou outro material resistente, que é instalada no limiar de uma porta para fornecer suporte
+                      estrutural e proteger a entrada. Ela também pode servir para fazer a transição entre ambientes ou
+                      entre diferentes tipos de revestimentos. Além de sua função prática, as soleiras desempenham um
+                      papel estético significativo, contribuindo para a harmonia e a continuidade visual do
+                      <i>design</i> de
+                      interiores.
+                    </p>
+                    <img src="imgs/fig11.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig11.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig11.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Soleira
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Ilustração de um círculo em tons de cinza, que detalha uma vista
+                      superior (planta baixa) de projeto de soleira em granito. A soleira divide dois ambientes com
+                      pisos diferentes, mas com mesmo nível, e contém a mesma espessura das paredes laterais de 15
+                      centímetros e largura de 80 centímetros</p>
+                    <img src="imgs/fig12.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig12.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig12.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Soleira
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Ilustração de detalhes em tons de cinza de cortes lateriais de
+                      soleiras em granito. A imagem é composta de dois detalhes. O primeiro está representando uma
+                      soleira em granito de porta que dá acesso à área externa e com desnível de 15 cm (degrau). No
+                      segundo detalhe está o corte lateral de uma peça de soleira em granito em ambiente interno no
+                      mesmo nivelamento.</p>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto7" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Perfil de transição</h4>
+                    <p>Um perfil de transição, no contexto da construção ou do <i>design</i> de interiores, é uma peça
+                      utilizada
+                      para criar uma transição suave e estética entre dois tipos diferentes de revestimento de piso,
+                      como
+                      carpete para piso laminado, porcelanato para madeira, entre outros. Esses perfis são projetados
+                      para
+                      cobrir a borda exposta dos materiais de piso adjacentes, proporcionando um acabamento limpo e
+                      evitando possíveis tropeços. Além disso, os perfis de transição ajudam a proteger as bordas dos
+                      pisos contra danos causados pelo tráfego constante. Disponíveis em diversos materiais, como metal,
+                      madeira e plástico, os perfis de transição são oferecidos em diferentes tipos para atender às
+                      necessidades tanto estéticas quanto funcionais de cada situação específica.</p>
+                    <img src="imgs/fig13.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig13.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig13.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Perfil de transição em alumínio
+                      <br>
+                      Fonte: Profilpas (c2024c)
+                    </p>
+                    <p class="acessivel no-print">Detalhamento de perfil de alumínio que faz a transição entre dois
+                      pisos de modelos diferentes que estão no mesmo nivelamento. Na parte esquerda da imagem está o
+                      detalhamento técnico do perfil em corte lateral e na parte direita da imagem está um círculo
+                      mostrando a foto deste perfil aplicado no ambiente. No ambiente está um piso de porcelanato de
+                      tonalidade bege e um piso madeirado interligados pelo perfil de transição em alumínio.</p>
+                    <img src="imgs/fig14.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig14.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig14.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Perfil de transição em latão
+                      <br>
+                      Fonte: Profilpas (c2024b)
+                    </p>
+                    <p class="acessivel no-print">Detalhamento de perfil em latão que faz a transição entre dois pisos
+                      de modelos diferentes que estão no mesmo nivelamento. Na parte esquerda da imagem está um círculo
+                      mostrando a foto do perfil aplicado no ambiente. No ambiente está um piso amadeirado interligado
+                      pelo perfil de transição em latão a um piso porcelanato em tom claro. No lado direito da imagem
+                      está o detalhamento técnico desse perfil em corte lateral.</p>
+                    <img src="imgs/fig15.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig15.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig15.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Perfil de transição em aço inox
+                      <br>
+                      Fonte: Profilpas (c2024b)
+                    </p>
+                    <p class="acessivel no-print">Detalhamento de perfil em aço inox que faz a transição entre dois
+                      pisos de modelos diferentes que estão no mesmo nivelamento. Na parte esquerda da imagem está o
+                      detalhamento técnico do perfil em corte lateral e na parte direita da imagem está um círculo
+                      mostrando a foto desse perfil aplicado no ambiente. No ambiente há um piso porcelanato de
+                      tonalidade bege claro e um piso porcelanato mais escuro interligados pelo perfil de transição.</p>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto8" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Rodapé</h4>
+                    <p>O rodapé é uma faixa de material instalada ao longo da base de uma parede, onde ela encontra o
+                      piso. Geralmente feito de materiais como madeira, PVC, MDF (<i>medium density fiberboard</i> ou
+                      fibras de
+                      média densidade), metal ou outros duráveis, o rodapé desempenha várias funções importantes. Ele
+                      protege a base da parede contra danos causados por varreduras, aspiradores de pó e impactos leves,
+                      além de ocultar a junção entre a parede e o piso, proporcionando um acabamento estético.
+                      Adicionalmente, o rodapé serve como elemento decorativo para complementar o estilo do espaço.
+                      Disponível em diversas alturas, larguras, cores e estilos, o rodapé é escolhido de acordo com as
+                      preferências de <i>design</i> e as necessidades específicas de cada ambiente. </p>
+                    <img src="imgs/fig16.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig16_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig16.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Modelos de rodapés
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Detalhamento de três diferentes modelos de rodapé. São três detalhes
+                      em corte lateral. No primeiro está sendo representado um rodapé convencional, no segundo detalhe
+                      está o corte lateral de um rodapé embutido que fica alinhado com o acabamento de reboco. O
+                      terceiro detalhe mostra o corte de um rodapé invertido que é um modelo no qual o rodapé fica
+                      recuado em relação ao acabamento de reboco da parede.</p>
+                    <p>Confira um exemplo de uma planta de paginação de pisos com todos esses elementos comentados no
+                      texto: </p>
+                    <img src="imgs/fig17.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig17_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig17.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Planta de paginação
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Planta baixa de paginação de um apartamento integrado estilo loft.
+                      Logo no primeiro ambiente, denominado como dormitório e sala, percebe-se, através da simbologia,
+                      que o acabamento do piso será em porcelanato amadeirado acetinado da marca Ceusa, borda reta. O
+                      acabamento das paredes é em pintura com tinta acrílica, toque de seda da Suvinil, cor papel
+                      picado, e o acabamento do teto em pintura com tinta acrílica, toque de seda da Suvinil, cor
+                      branca. Está demarcada a cota de nível, sendo 0.00. Neste mesmo ambiente, o rodapé será em
+                      poliestireno frisado, 15 cm. Santa Luzia, cor branca. No ambiente ao lado denominado Cozinha e
+                      serviço, o piso será em porcelanato natural cinza-concreto da marca Portobello, acabamento das
+                      paredes é em pintura com tinta acrílica, toque de seda da Suvinil, cor papel picado, e o
+                      acabamento do teto em pintura, tinta acrílica, toque de seda da Suvinil, cor branca. A cota de
+                      nível permanece a mesma, sendo 0.00. O banheiro, que está localizado no canto inferior esquerdo da
+                      planta baixa, mostra que o piso segue o mesmo modelo e a mesma cota de nível da sala e as
+                      simbologias indicam que o piso do box será em porcelanato retificado da marca Eliane e, neste
+                      ponto, a cota de nível desce 5 cm, ficando marcada como -0.05. O acabamento das paredes serão em
+                      revestimento brilhante Portobelo gap white retificado e o acabamento do teto em pintura, tinta
+                      acrílica, toque de seda Suvinil, cor branca. Na lateral direita da planta baixa está uma legenda
+                      que especifica todos esses detalhes indicados nas simbologias.</p>
+                    <div class="caixa-destaque">
+                      <p>Observações importantes </p>
+                      <ol>
+                        <li>A seta de início de paginação deve ficar posicionada exatamente sobre a primeira peça a ser
+                          instalada no local. Se essa peça não estiver em um dos cantos que possa facilitar a
+                          identificação por parte do instalador, será necessário acrescentar uma cota de referência para
+                          definir esse início.</li>
+                        <li>Deve-se sempre representar no projeto de paginação o modelo do revestimento escolhido (peça)
+                          no
+                          seu tamanho real para que expresse a realidade do que será executado na obra e assim se ter um
+                          maior controle das peças que precisarão receber recortes.</li>
+                        <li>Deve-se considerar o melhor acabamento próximo às paredes. Recortes muito pequenos ou
+                          estreitos
+                          de revestimento junto às paredes, além de dificultarem a instalação, evidenciam o
+                          desnivelamento.</li>
+                        <li>Quando não for possível evitar a quebra de revestimento (recortes), é mais interessante que
+                          essa
+                          quebra aconteça próximo a paredes que terão móveis que ocultem esse detalhe.</li>
+                        <li>Alguns revestimentos contêm transpasse, como alguns modelos de porcelanatos e pisos
+                          laminados.
+                          Nestes casos, sempre verifique na ficha técnica do produto a medida mínima exigida.</li>
+                        <li>Para projetos de revestimento em porcelanato, cerâmica ou ladrilhos, nunca se esqueça de
+                          especificar também o tipo de rejunte a ser utilizado, a cor desse rejunte e o espaçamento
+                          entre
+                          as peças.</li>
+                      </ol>
+                    </div>
+                    <img src="imgs/fig18.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                    <a href="imgs/fig18_zoom.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/fig18.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">Prancha de paginação (pisos e paredes)
+                      <br>
+                      Fonte: Senac EAD (2024)
+                    </p>
+                    <p class="acessivel no-print">Exemplo de detalhamento de paginação de pisos e parede. Na parte
+                      esquerda da prancha está representada uma planta com medidas e indicação de detalhes dos tipos de
+                      pisos que serão utilizados no projeto. Na lateral direita dessa planta está a representação
+                      técnica da paginação das paredes do banheiro. Abaixo da planta baixa, localizada à esquerda da
+                      prancha, está um quadro com a legenda informando todos os elementos que contam no projeto.</p>
+                    <p>Portanto, a representação correta da paginação no projeto executivo é essencial para garantir que
+                      a instalação seja feita conforme o <i>design</i> planejado, evitando erros e garantindo o
+                      resultado
+                      desejado. Na planta de paginação, deve-se incluir a localização exata de cada peça de
+                      revestimento, os padrões a serem seguidos, os cortes necessários e as especificações de material e
+                      cor. Essa planta serve como um guia detalhado para os profissionais de instalação, assegurando que
+                      o <i>design</i> do revestimento seja executado de acordo com a visão do <i>designer</i>. </p>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto9" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Como calcular revestimentos</h4>
+                    <p>O cálculo de quantitativo de materiais necessários para revestimento é um processo essencial no
+                      <i>design</i> de interiores para assegurar que se indique a quantidade correta a ser adquirida.
+                      Esse cálculo envolve algumas etapas:
+                    </p>
+                    <div class="no-print" aria-hidden="true">
+                      <p>Clique ou toque para visualizar o conteúdo.</p>
+                      <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree"
+                                aria-expanded="true" aria-controls="collapseThree">
+                                Levantamento das medidas
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel"
+                            aria-labelledby="headingThree">
+                            <div class="panel-body">
+                              <p>Medir a área que será revestida. Para pisos e revestimentos de parede, multiplica-se a
+                                largura
+                                do ambiente pelo comprimento ou pela altura de cada superfície do ambiente. Para áreas
+                                irregulares, pode ser necessário dividir em segmentos mais simples ou usar fórmulas
+                                específicas
+                                para formas geométricas complexas. Nesses casos, normalmente utilizam-se
+                                <i>softwares</i> que
+                                fazem
+                                esse cálculo de forma mais rápida e fácil.
+                              </p>
+                              <img src="imgs/fig19.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para
+                                ampliá-la.</p>
+                              <a href="imgs/fig19.png" target="_blank" class="no-print visible-sm visible-xs"
+                                aria-hidden="true"><img src="imgs/fig19.png" class="center-block img-responsive"></a>
+                              <p class="legenda-imagem">Medidas
+                                <br>
+                                Fonte: Senac EAD (2024)
+                              </p>
+                              <p class="acessivel no-print">Planta baixa de uma cozinha em formato retangular, em que a
+                                largura
+                                do espaço mede 1.80 m marcado com uma cota na cor laranja no sentido horizontal e o
+                                comprimento
+                                da cozinha mede 5.95 m marcado com uma cota laranja no sentido vertical</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2"
+                                href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Desperdício e sobras
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingFour">
+                            <div class="panel-body">
+                              <p>Após realizar a paginação dos revestimentos, conte o número de peças que foram
+                                distribuídas no seu desenho. Adicione uma margem de segurança para cortes e perdas.
+                                Geralmente, adiciona-se de 10% a 15% no total das peças, dependendo do tipo de material
+                                e da complexidade do assentamento escolhido em projeto. Esse processo evita a falta de
+                                materiais durante a execução da obra. </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="acessivel print">
+                      <h4>Levantamento das medidas </h4>
+                      <p>Medir a área que será revestida. Para pisos e revestimentos de parede, multiplica-se a largura
+                        do ambiente pelo comprimento ou pela altura de cada superfície do ambiente. Para áreas
+                        irregulares, pode ser necessário dividir em segmentos mais simples ou usar fórmulas específicas
+                        para formas geométricas complexas. Nesses casos, normalmente utilizam-se <i>softwares</i> que
+                        fazem
+                        esse cálculo de forma mais rápida e fácil. </p>
+                      <img src="imgs/fig19.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                      <a href="imgs/fig19.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/fig19.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">Medidas
+                        <br>
+                        Fonte: Senac EAD (2024)
+                      </p>
+                      <p class="acessivel no-print">Planta baixa de uma cozinha em formato retangular, em que a largura
+                        do espaço mede 1.80 m marcado com uma cota na cor laranja no sentido horizontal e o comprimento
+                        da cozinha mede 5.95 m marcado com uma cota laranja no sentido vertical</p>
+                      <h4>Desperdício e sobras </h4>
+                      <p>Após realizar a paginação dos revestimentos, conte o número de peças que foram distribuídas no
+                        seu desenho. Adicione uma margem de segurança para cortes e perdas. Geralmente, adiciona-se de
+                        10% a 15% no total das peças, dependendo do tipo de material e da complexidade do assentamento
+                        escolhido em projeto. Esse processo evita a falta de materiais durante a execução da obra. </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto10" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Como calcular tintas</h4>
+                    <p>Para calcular a quantidade de tinta realize o seguinte procedimento: </p>
+                    <p class="no-print" aria-hidden="true">Clique ou toque para visualizar o conteúdo.</p>
+                    <div class="no-print painel-tintas" aria-hidden="true">
+                      <button type="button" class="bt-tintas bt-tintas1" data-toggle="modal"
+                        data-target="#tintas1"></button>
+                      <button type="button" class="bt-tintas bt-tintas2" data-toggle="modal"
+                        data-target="#tintas2"></button>
+                      <button type="button" class="bt-tintas bt-tintas3" data-toggle="modal"
+                        data-target="#tintas3"></button>
+                    </div>
+                    <div class="modal fade" id="tintas1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                      aria-live="polite" aria-atomic="true" aria-hidden="false">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Cobertura da tinta</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Verifique a cobertura da tinta (quantos metros quadrados um litro de tinta cobre) e
+                              divida a área total de paredes pela cobertura indicada pelo fabricante. É importante
+                              descontar portas e janelas (aberturas) nesse quantitativo. </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="tintas2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                      aria-live="polite" aria-atomic="true" aria-hidden="false">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Estrutura da parede e cores</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Verifique se é uma primeira pintura realizada no ambiente diretamente na massa corrida ou
+                              massa acrílica, ou ainda se é uma sobreposição em paredes já pintadas. Cores claras exigem
+                              menos demãos para cobrir a cor, enquanto paredes mais escuras podem exigir uma base antes
+                              da nova cor. </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="tintas3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                      aria-live="polite" aria-atomic="true" aria-hidden="false">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Caculadora de tinta</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p><i>Sites</i> de fabricantes de tintas contêm calculadoras <i>on-line</i> que consideram
+                              os parâmetros e
+                              as necessidades dos ambientes. Os resultados são bem precisos. </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="acessivel print">
+                      <h4>Cobertura da tinta</h4>
+                      <p>Verifique a cobertura da tinta (quantos metros quadrados um litro de tinta cobre) e divida a
+                        área
+                        total de paredes pela cobertura indicada pelo fabricante. É importante descontar portas e
+                        janelas
+                        (aberturas) nesse quantitativo.</p>
+                      <h4>Estrutura da parede e cores</h4>
+                      <p>Verifique se é uma primeira pintura realizada no ambiente diretamente na massa corrida ou massa
+                        acrílica, ou ainda se é uma sobreposição em paredes já pintadas. Cores claras exigem menos
+                        demãos
+                        para cobrir a cor, enquanto paredes mais escuras podem exigir uma base antes da nova cor.</p>
+                      <h4>Caculadora de tinta</h4>
+                      <p><i>Sites</i> de fabricantes de tintas contêm calculadoras <i>on-line</i> que consideram os
+                        parâmetros e as
+                        necessidades dos ambientes. Os resultados são bem precisos.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto11" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Como calcular papel de parede</h4>
+                    <p>Para calcular a aplicação de papel de parede, realize o seguinte processo: </p>
+                    <p class="no-print" aria-hidden="true">Clique ou toque para visualizar o conteúdo.</p>
+                    <div class="no-print painel-papel" aria-hidden="true">
+                      <button type="button" class="bt-papel bt-papel1" data-toggle="modal"
+                        data-target="#papel1"></button>
+                      <button type="button" class="bt-papel bt-papel2" data-toggle="modal"
+                        data-target="#papel2"></button>
+                      <button type="button" class="bt-papel bt-papel3" data-toggle="modal"
+                        data-target="#papel3"></button>
+                      <button type="button" class="bt-papel bt-papel4" data-toggle="modal"
+                        data-target="#papel4"></button>
+                      <button type="button" class="bt-papel bt-papel5" data-toggle="modal"
+                        data-target="#papel5"></button>
+                    </div>
+                    <div class="modal fade" id="papel1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                      aria-live="polite" aria-atomic="true" aria-hidden="false">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Meça as paredes</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Meça a altura e largura de cada parede na qual você quer aplicar o papel. </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="papel2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                      aria-live="polite" aria-atomic="true" aria-hidden="false">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Calcule e some</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Calcule a área de cada parede para obter a área em m². Após isso, some todas as áreas das
+                              paredes. </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="papel3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                      aria-live="polite" aria-atomic="true" aria-hidden="false">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Repita o padrão</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>O papel de parede contém desenhos e padronagens. Para manter um padrão alinhado, será
+                              necessário comprar um pouco mais de material para garantir que os desenhos tenham
+                              continuidade. Siga a orientação do fabricante para não errar nessa compra extra. </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="papel4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                      aria-live="polite" aria-atomic="true" aria-hidden="false">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Adicione margem de segurança</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Assim como nos revestimentos, é interessante adicionar um percentual de 10% a 15% da área
+                              total para garantir a instalação sem falta de produto. </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="papel5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                      aria-live="polite" aria-atomic="true" aria-hidden="false">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Verifique o rolo</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Verifique na embalagam do papel de parede quantos m² um rolo cobrirá. Faça a divisão da
+                              área total pelo número de metros quadrados que cada rolo cobre e compre quantos rolos
+                              serão necessários. </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="acessivel print">
+                      <h4>Meça as paredes</h4>
+                      <p> Meça a altura e largura de cada parede na qual você quer aplicar o papel.</p>
+                      <h4>Calcule e some</h4>
+                      <p>Calcule a área de cada parede para obter a área em m². Após isso, some todas as áreas das
+                        paredes.</p>
+                      <h4>Repita o padrão</h4>
+                      <p>O papel de parede contém desenhos e padronagens. Para manter um padrão alinhado, será
+                        necessário
+                        comprar um pouco mais de material para garantir que os desenhos tenham continuidade. Siga a
+                        orientação do fabricante para não errar nessa compra extra.</p>
+                      <h4>Adicione margem de segurança</h4>
+                      <p>Assim como nos revestimentos, é interessante adicionar um percentual de 10% a 15% da área total
+                        para garantir a instalação sem falta de produto.</p>
+                      <h4>Verifique o rolo</h4>
+                      <p>Verifique na embalagam do papel de parede quantos m² um rolo cobrirá. Faça a divisão da área
+                        total
+                        pelo número de metros quadrados que cada rolo cobre e compre quantos rolos serão necessários.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal-100 fade" id="modal-projeto12" aria-hidden="false">
+            <div class="modal-dialog">
+              <div class="modal-content no-print">
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-header" style="padding-top: 30px;">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <h4>Encerramento</h4>
+                    <p>Você chegou ao fim deste conhecimento e deve ter percebido a importância de se elaborar um
+                      projeto executivo bem detalhado, pois ele desempenha uma etapa crucial para se atingir o resultado
+                      final com precisão e sucesso. O projeto executivpo serve como um guia detalhado que traduz a visão
+                      criativa do <i>designer</i>, fornecendo diretrizes precisas para a execução de toda a obra,
+                      desempenhando
+                      um papel fundamental na comunicação entre o <i>designer</i>, os clientes e os profissionais
+                      envolvidos na
+                      execução, garantindo uma compreensão clara e consistente das especificações e dos requisitos do
+                      projeto.</p>
+                    <p>Você está pronto para começar a elaborar os seus próprios projetos executivos? </p>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+      <!--
+          <ul class="pagination">
+
+          </ul>
+          -->
+    </footer>
+  </div>
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+    -->
+  <!-- carrega todas as imagens dos icones nesta div
+ caso queira adicionar mais imagens de novos icones do css,
+ ou qualquer imagem que deva ser contabilizada durante a fase
+ de loading, referenciar aqui.
+ -->
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png" />
+    <img src="../template/images/bg-content.jpg" />
+    <img src="../template/images/bg-topo.jpg" />
+    <img src="../template/images/black-zoom-in-256.png" />
+    <img src="../template/images/concluindo.png" />
+    <img src="../template/images/curtir.png" />
+    <img src="../template/images/desafio.png" />
+    <img src="../template/images/dica.png" />
+    <img src="../template/images/doc.png" />
+    <img src="../template/images/fundamental.png" />
+    <img src="../template/images/icon-03.png" />
+    <img src="../template/images/importante.png" />
+    <img src="../template/images/lightbulb.png" />
+    <img src="../template/images/link.png" />
+    <img src="../template/images/link_pdf_hover.png" />
+    <img src="../template/images/link_pdf_normal.png" />
+    <img src="../template/images/logo-senac.png" />
+    <img src="../template/images/mark-icon.png" />
+    <img src="../template/images/mark-icon02.png" />
+    <img src="../template/images/midia.png" />
+    <img src="../template/images/monitor.png" />
+    <img src="../template/images/nao_curtir.png" />
+    <img src="../template/images/pergunta.png" />
+    <img src="../template/images/pesquisa.png" />
+    <img src="../template/images/play.png" />
+    <img src="../template/images/radio_flat.png" />
+    <img src="../template/images/refletir.png" />
+    <img src="../template/images/saiba_mais.png" />
+    <img src="../template/images/senac_loader.png" />
+    <img src="../template/images/tanamidia.png" />
+    <img src="../template/images/transcricao.png" />
+    <img src="../template/images/transcricao_small.png" />
+    <img src="../template/images/tv.png" />
+    <img src="../template/images/tv_bottom.png" />
+    <img src="../template/images/zoom.png" />
+    <img src="../template/images/zoom_ie.cur" />
+    <img src="../template/images/zoom_ie.png" />
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/highlight.min.js"></script>
+  <script src="../template/js/parallax.min.js"></script>
+  <script src="js/custom.js"></script>
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
+</body>
+
+</html>
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    document.querySelectorAll("pre code").forEach((el) => {
+      hljs.highlightElement(el);
+    });
+  });
+  //inicializa zoom na imagem
+  $(".zoom-imagem").magnificPopup({
+    type: "image",
+    mainClass: "mfp-with-zoom", // this class is for CSS animation below
+    zoom: {
+      enabled: true, // By default it's false, so don't forget to enable it
+
+      duration: 300, // duration of the effect, in milliseconds
+      easing: "ease-in-out", // CSS transition easing function
+
+      // The "opener" function should return the element from which popup will be zoomed in
+      // and to which popup will be scaled down
+      // By defailt it looks for an image tag:
+      opener: function (openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is("img")
+          ? openerElement
+          : openerElement.find("img");
+      },
+    },
+    image: {
+      markup:
+        '<div class="mfp-figure">' +
+        '<div class="mfp-close"></div>' +
+        '<div class="mfp-img"></div>' + // Floated left
+        '<div class="mfp-bottom-bar">' +
+        "<figcaption>" +
+        '<div class="mfp-title" style="text-align:center"></div>' +
+        '<div class="mfp-counter"></div>' +
+        "</figcaption>" +
+        "</div>" +
+        "</div>", // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+      cursor: "mfp-zoom-out-cur", // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+      tError: '<a href="%url%">A imagem</a> não pode ser carregada.', // Error message
+    },
+  });
+  $(document).ready(function () {
+    $('.list-group-item').click(function () {
+      $('.list-group-item').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
+  //inicializa popover
+  $(function () {
+    $('[data-toggle="popover"]').popover();
+  });
+  //inicializa tooltip
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
+  var root = document.documentElement;
+  root.className += " js";
+
+  function boxTop(idBox) {
+    var boxOffset = $(idBox).offset().top;
+    return boxOffset;
+  }
+
+  $(document).ready(function () {
+    var $target = $(".animeStart"),
+      $target2 = $(".animeStop"),
+      targetBox = $(".box"),
+      animationClass = "anime-init",
+      windowHeight = $(window).height(),
+      offset = windowHeight - windowHeight / 4;
+
+    function animeScroll() {
+      var documentTop = $(document).scrollTop();
+      $target.each(function () {
+        if (documentTop > boxTop(this) - offset) {
+          targetBox.addClass(animationClass);
+        } else {
+          targetBox.removeClass(animationClass);
+        }
+        if (documentTop > boxTop($target2) - offset) {
+          targetBox.removeClass(animationClass);
+        }
+      });
+    }
+    animeScroll();
+
+    $(document).scroll(function () {
+      animeScroll();
+    });
+  });
+</script>
+
+<script>
+  var scriptElem = document.createElement("script");
+  (scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js"),
+    (scriptElem.charset = "UTF-8"),
+    (scriptElem.onload = function () {
+      window.ht = new HT({
+        token: "bf5b7efb148a829a126a0e0c9fd533bf",
+        align: "top",
+        videoEnabled: true,
+        ytEmbedReplace: true,
+        mobileConfig: {
+          align: "right",
+          actionsAlign: "top",
+          customButtonStyle: {
+            borderRadius: "6px",
+            size: "38px",
+            horizontalMargin: "13px",
+            bottomMargin: "140px",
+            rightMargin: "40px",
+          },
+        },
+      });
+      $(".ht-skip").attr("aria-hidden", "true");
+    }),
+    document.body.appendChild(scriptElem);
+</script>

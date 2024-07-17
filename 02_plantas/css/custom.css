@@ -1,0 +1,280 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url("../imgs/bg01.png") repeat;
+  background-size: cover;
+  background-position: top center;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 0px 40px;
+  border-radius: 15px;
+  background-color: #FFF;
+  filter: drop-shadow(#949494 0px 4px 4px);
+}
+
+.grupo-imprimir {
+  margin-top: 100px;
+}
+
+/* inicio painel projeto */
+.painel-projeto1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bt-projeto {
+  border: none;
+  transition: transform 0.2s;
+  background: transparent;
+  outline: none;
+}
+
+.bt-projeto1 {
+  background: url("../imgs/bt/bt01.png");
+  width: 207px;
+  height: 183px;
+}
+
+.bt-projeto2 {
+  background: url("../imgs/bt/bt02.png");
+  width: 329px;
+  height: 230px;
+}
+
+.bt-projeto3 {
+  background: url("../imgs/bt/bt03.png");
+  width: 231px;
+  height: 198px;
+}
+
+.bt-projeto4 {
+  background: url("../imgs/bt/bt04.png");
+  width: 275px;
+  height: 194px;
+}
+
+.bt-projeto5 {
+  background: url("../imgs/bt/bt05.png");
+  width: 269px;
+  height: 317px;
+}
+
+.bt-projeto6 {
+  background: url("../imgs/bt/bt06.png");
+  width: 208px;
+  height: 207px;
+}
+
+.bt-projeto7 {
+  background: url("../imgs/bt/bt07.png");
+  width: 209px;
+  height: 187px;
+}
+
+.bt-projeto8 {
+  background: url("../imgs/bt/bt08.png");
+  width: 237px;
+  height: 193px;
+}
+
+.bt-projeto9 {
+  background: url("../imgs/bt/bt09.png");
+  width: 207px;
+  height: 226px;
+}
+
+.bt-projeto10 {
+  background: url("../imgs/bt/bt10.png");
+  width: 207px;
+  height: 225px;
+}
+
+.bt-projeto11 {
+  background: url("../imgs/bt/bt11.png");
+  width: 207px;
+  height: 183px;
+}
+
+.bt-projeto12 {
+  background: url("../imgs/bt/bt12.png");
+  width: 207px;
+  height: 183px;
+}
+
+.bt-projeto1:hover {
+  background: url("../imgs/bt/bt01_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto2:hover {
+  background: url("../imgs/bt/bt02_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto3:hover {
+  background: url("../imgs/bt/bt03_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto4:hover {
+  background: url("../imgs/bt/bt04_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto5:hover {
+  background: url("../imgs/bt/bt05_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto6:hover {
+  background: url("../imgs/bt/bt06_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto7:hover {
+  background: url("../imgs/bt/bt07_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto8:hover {
+  background: url("../imgs/bt/bt08_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto9:hover {
+  background: url("../imgs/bt/bt09_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto10:hover {
+  background: url("../imgs/bt/bt10_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto11:hover {
+  background: url("../imgs/bt/bt11_b.png");
+  transform: scale(1.1);
+}
+
+.bt-projeto12:hover {
+  background: url("../imgs/bt/bt12_b.png");
+  transform: scale(1.1);
+}
+
+/* fim painel projeto */
+
+/* inicio painel papel */
+.painel-papel {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bt-papel {
+  border: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: transparent;
+  outline: none;
+  width: 540px;
+  height: 356px;
+  margin: 10px;
+}
+
+.bt-papel1 {
+  background: url("../imgs/bt01_2.png");
+}
+
+.bt-papel2 {
+  background: url("../imgs/bt02_2.png");
+}
+
+.bt-papel3 {
+  background: url("../imgs/bt03_2.png");
+}
+
+.bt-papel4 {
+  background: url("../imgs/bt04_2.png");
+}
+
+.bt-papel5 {
+  background: url("../imgs/bt05_2.png");
+}
+
+.bt-papel1:hover,
+.bt-papel2:hover,
+.bt-papel3:hover,
+.bt-papel4:hover,
+.bt-papel5:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 21px 10px rgba(132, 52, 44, 0.3);
+  -webkit-box-shadow: 0px 0px 21px 10px rgba(132, 52, 44, 0.3);
+  -moz-box-shadow: 0px 0px 21px 10px rgba(132, 52, 44, 0.3);
+
+}
+
+/* fim painel papel */
+/* inicio painel tintas */
+.painel-tintas {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.bt-tintas {
+  border: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: transparent;
+  outline: none;
+  width: 254px;
+  height: 376px;
+  margin: 10px;
+}
+
+.bt-tintas1 {
+  background: url("../imgs/card01.png");
+}
+
+.bt-tintas2 {
+  background: url("../imgs/card02.png");
+}
+
+.bt-tintas3 {
+  background: url("../imgs/card03.png");
+}
+
+.bt-tintas1:hover,
+.bt-tintas2:hover,
+.bt-tintas3:hover {
+  box-shadow: 11px -12px 11px -2px rgba(132, 52, 44, 0.3);
+}
+
+/* fim painel tintas */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {}

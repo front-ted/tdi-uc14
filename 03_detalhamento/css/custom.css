@@ -1,5 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background: url("../imgs/bg01.png") repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.bloco2 .container {
+  padding: 0px 40px;
+  border-radius: 15px;
+  background-color: #FFF;
+  filter: drop-shadow(#949494 0px 4px 4px);
+}
+
+.bloco4 .container {
+  padding: 0px 40px;
+  border-radius: 15px;
+  background-color: #FFF;
+  filter: drop-shadow(#949494 0px 4px 4px);
+}
+
+.bloco6 .container {
+  padding: 0px 40px;
+  border-radius: 15px;
+  background-color: #FFF;
+  filter: drop-shadow(#949494 0px 4px 4px);
+}
+
+.bloco {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+table.senac th {
+  background-color: #80392C;
+  color: #fff;
+  border-color: #80392C;
+}
+
+table.senac {
+  border-color: #80392C;
+}
+
+table.senac td {
+  background-color: #fefefe;
+  color: #000;
+  border-color: #80392C;
 }
 
 .btn-fechar,
@@ -33,7 +93,7 @@ html {
 }
 
 .destaque3 {
-  background-color: #2a8080;
+  background-color: #547c7c;
   color: #fff;
   width: 90%;
 }
@@ -138,20 +198,60 @@ li {
   background: url("../imgs/bt/bt08_2.png");
 }
 
-
 /* painel abas */
-
-
-
-/* fim painel abas */
-
 .tab-content {
   border-width: 3px;
   border-style: solid;
   padding: 40px;
-  border-radius: 0 25px 25px 25px;
+  border-radius: 0px 0px 25px 25px !important;
   border-color: #2A8080;
+  background-color: #2A8080;
+  color: #FFF;
 }
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+  color: #2A8080;
+  background-color: #fff;
+  border: none;
+  border: 1px solid #2A8080;
+  border-bottom: transparent;
+  font-weight: bold;
+}
+
+.nav-tabs>li>a:hover {
+  color: #2A8080;
+  background-color: #fff;
+  border: none;
+  border: 1px solid #2A8080;
+  border-bottom: transparent;
+  font-weight: bold;
+}
+
+.nav-tabs>li>a {
+  color: #fff;
+  background-color: #2A8080;
+  border: none;
+  border: 1px solid #fff;
+  border-bottom: transparent;
+  font-weight: bold;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #fff;
+  border: none;
+  background-color: #2A8080;
+  border-radius: 25px 25px 0px 0px !important;
+}
+
+.nav {
+  padding-left: 30px;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/* fim painel abas */
 
 .panel-title a {
   position: relative;
@@ -264,41 +364,30 @@ div.item div {
   background: url('../imgs/img06.png');
 }
 
+.carousel-indicators {
+  bottom: -25px;
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #364444;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  border: 1px solid #364444;
+  border-radius: 10px;
+  background-color: #9ab7b6;
+}
+
 /*--------- /SLIDESHOW ---------*/
-body {
-  background: url("../imgs/bg.png") repeat;
-  background-size: cover;
-  background-position: top center;
-  overflow-x: hidden;
-}
-
-/* .bloco1 {
-  background-color: red;
-}
-
-.bloco2 {
-  background-color: purple;
-}
-
-.bloco3 {
-  background-color: green;
-}
-
-.bloco4 {
-  background-color: blue;
-}
-
-.bloco5 {
-  background-color: orange;
-}
-
-.bloco6 {
-  background-color: black;
-}
-
-.bloco7 {
-  background-color: pink;
-} */
 
 .img-zoom {
   display: table;
@@ -316,13 +405,6 @@ body {
   bottom: 25px;
   position: absolute;
   filter: drop-shadow(#333 3px 3px 4px);
-}
-
-.container {
-  padding: 0px 40px;
-  border-radius: 15px;
-  background-color: #FFF;
-  filter: drop-shadow(#949494 0px 4px 4px);
 }
 
 h2,
@@ -547,7 +629,6 @@ header {
 }
 
 /*---------- /MENU ----------*/
-
 
 @media screen and (max-width: 820px) {
   .carousel-control.left {

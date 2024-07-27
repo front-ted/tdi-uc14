@@ -1608,6 +1608,53 @@
 </body>
 
 </html>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const buttons = document.querySelectorAll('.bt-projeto');
+
+    // Função para atualizar o estado dos botões com base no armazenamento local
+    function updateButtonStates() {
+      const markedButtons = JSON.parse(localStorage.getItem('markedButtons')) || [];
+      buttons.forEach(button => {
+        const target = button.dataset.target;
+        if (markedButtons.includes(target)) {
+          button.classList.add('selected');
+        } else {
+          button.classList.remove('selected');
+        }
+      });
+    }
+
+    // Atualiza os botões quando a página carrega
+    updateButtonStates();
+
+    buttons.forEach(button => {
+      button.addEventListener('click', function () {
+        const target = this.dataset.target;
+        let markedButtons = JSON.parse(localStorage.getItem('markedButtons')) || [];
+
+        if (markedButtons.includes(target)) {
+          // Remove o botão da lista se já estiver marcado
+          markedButtons = markedButtons.filter(item => item !== target);
+          this.classList.remove('selected');
+        } else {
+          // Adiciona o botão à lista
+          markedButtons.push(target);
+          this.classList.add('selected');
+        }
+
+        // Atualiza o armazenamento local
+        localStorage.setItem('markedButtons', JSON.stringify(markedButtons));
+      });
+    });
+  });
+</script>
+
+
+
+
+
 <script>
   document.addEventListener("DOMContentLoaded", (event) => {
     document.querySelectorAll("pre code").forEach((el) => {

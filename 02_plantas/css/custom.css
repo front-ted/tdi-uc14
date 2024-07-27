@@ -139,6 +139,27 @@ body {
 }
 
 /* inicio painel projeto */
+.bt-projeto.selected {
+  opacity: 0.7;
+}
+
+.bt-projeto.selected::after {
+  content: '✔';
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #2A8080;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.bt-projeto.selected:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
 .painel-projeto1 {
   display: flex;
   align-content: center;
@@ -157,6 +178,7 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
   margin-right: 8px;
+  position: relative;
 }
 
 .bt-projeto1 {
@@ -366,5 +388,17 @@ body {
   .caixa-destaque {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .flip-card-inner {
+    width: 80%;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    width: 80%;
   }
 }

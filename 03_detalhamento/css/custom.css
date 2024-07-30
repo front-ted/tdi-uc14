@@ -14,6 +14,19 @@ html {
   scroll-behavior: smooth;
 }
 
+.modal-body {
+  background: url("../imgs/bg_modal.png") repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.modal-body .container {
+  padding: 0px 40px;
+  border-radius: 15px;
+  background-color: #FFF;
+  filter: drop-shadow(#949494 0px 4px 4px);
+}
+
 body {
   background: url("../imgs/bg01.png") repeat;
   background-size: cover;
@@ -113,6 +126,7 @@ li {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .bt-elementos.selected {
   opacity: 0.7;
 }

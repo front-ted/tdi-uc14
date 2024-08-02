@@ -361,13 +361,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .painel-projeto1 {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+
 
   .destaque2 {
     width: 100%;
@@ -390,6 +384,14 @@ body {
 
 
 @media only screen and (max-width: 425px) {
+  .painel-projeto1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .destaque2 {
     background: unset;
     background-size: unset;

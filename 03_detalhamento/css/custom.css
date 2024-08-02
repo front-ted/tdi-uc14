@@ -59,6 +59,10 @@ body {
   margin-bottom: 20px;
 }
 
+.bloco7 {
+  padding-bottom: 30px;
+}
+
 table.senac th {
   background-color: #80392C;
   color: #fff;
@@ -106,7 +110,7 @@ table.senac td {
 }
 
 .destaque3 {
-  background-color: #547c7c;
+  background-color: #80392C;
   color: #fff;
   width: 90%;
 }
@@ -239,34 +243,34 @@ li {
   border-style: solid;
   padding: 40px;
   border-radius: 0px 0px 25px 25px !important;
-  border-color: #2A8080;
-  background-color: #2A8080;
+  border-color: #80392C;
+  background-color: #80392C;
   color: #FFF;
 }
 
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover {
-  color: #2A8080;
+  color: #80392C;
   background-color: #fff;
   border: none;
-  border: 1px solid #2A8080;
+  border: 1px solid #80392C;
   border-bottom: transparent;
   font-weight: bold;
 }
 
 .nav-tabs>li>a:hover {
-  color: #2A8080;
+  color: #80392C;
   background-color: #fff;
   border: none;
-  border: 1px solid #2A8080;
+  border: 1px solid #80392C;
   border-bottom: transparent;
   font-weight: bold;
 }
 
 .nav-tabs>li>a {
   color: #fff;
-  background-color: #2A8080;
+  background-color: #80392C;
   border: none;
   border: 1px solid #fff;
   border-bottom: transparent;
@@ -276,7 +280,7 @@ li {
 .nav-tabs {
   border-bottom: 1px solid #fff;
   border: none;
-  background-color: #2A8080;
+  background-color: #80392C;
   border-radius: 25px 25px 0px 0px !important;
 }
 
@@ -300,7 +304,7 @@ li {
 
 .panel-body {
   border: none;
-  border-left: #2A8080 solid 5px;
+  border-left: #80392C solid 5px;
   margin-left: 30px;
   padding-right: 40px;
 }
@@ -321,7 +325,7 @@ li {
 }
 
 .panel-heading {
-  background-color: #2A8080 !important;
+  background-color: #80392C !important;
   color: #fff !important;
   border-radius: 12px;
   background: transparent;
@@ -335,7 +339,7 @@ li {
 /*--------- SLIDESHOW ---------*/
 .carousel {
   margin: 40px auto;
-  background-color: #2A8080;
+  background-color: #80392C;
   border-radius: 30px;
   width: 680px;
   padding: 40px 0px;
@@ -707,7 +711,7 @@ header {
     overflow-x: unset;
     height: unset;
     width: unset;
-    background-color: #2a8080;
+    background-color: #80392C;
     color: #fff;
   }
 

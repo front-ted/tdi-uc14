@@ -132,6 +132,7 @@ body {
   border-radius: 15px;
   background-color: #FFF;
   filter: drop-shadow(#949494 0px 4px 4px);
+  padding-bottom: 30px;
 }
 
 .grupo-imprimir {
@@ -299,6 +300,14 @@ body {
   margin: 20px auto;
 }
 
+.flip-card1 {
+  background-color: transparent;
+  width: 321px;
+  height: 321px;
+  padding-right: 15px;
+  margin: 15px auto;
+}
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -306,6 +315,11 @@ body {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+}
+
+.flip-card1:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  cursor: pointer;
 }
 
 .flip-card:hover .flip-card-inner {

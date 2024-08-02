@@ -2,6 +2,25 @@ html {
   scroll-behavior: smooth;
 }
 
+header {
+  margin-top: 50px;
+}
+
+body {
+  background: url("../imgs/bg.png") repeat;
+  background-size: cover;
+  background-position: top center;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 0px 40px;
+  border-radius: 15px;
+  background-color: #FFF;
+  filter: drop-shadow(#949494 0px 4px 4px);
+  padding-bottom: 30px;
+}
+
 .selo {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -11,13 +30,6 @@ html {
   margin-top: 40px;
   border-radius: 20px;
   filter: drop-shadow(#303030 4px 4px 6px);
-}
-
-body {
-  background: url("../imgs/bg.png") repeat;
-  background-size: cover;
-  background-position: top center;
-  overflow-x: hidden;
 }
 
 .panel-body {
@@ -73,13 +85,6 @@ body {
   filter: drop-shadow(#333 3px 3px 4px);
 }
 
-.container {
-  padding: 0px 40px;
-  border-radius: 15px;
-  background-color: #FFF;
-  filter: drop-shadow(#949494 0px 4px 4px);
-}
-
 h2,
 h3,
 h4 {
@@ -128,9 +133,7 @@ h4 {
   content: '\25BC';
 }
 
-header {
-  margin-top: 50px;
-}
+
 
 .tab-content {
   border-width: 3px;

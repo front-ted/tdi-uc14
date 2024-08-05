@@ -14,6 +14,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: url("../imgs/bg01.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
 .modal-body {
   background: url("../imgs/bg_modal.png") repeat;
   background-size: cover;
@@ -25,12 +30,6 @@ html {
   border-radius: 15px;
   background-color: #FFF;
   filter: drop-shadow(#949494 0px 4px 4px);
-}
-
-body {
-  background: url("../imgs/bg01.png") repeat;
-  background-size: cover;
-  background-position: top center;
 }
 
 .bloco2 .container {

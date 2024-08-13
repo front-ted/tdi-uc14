@@ -128,6 +128,12 @@ header {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .video-youtube {
+    width: 320px;
+    height: 180px;
+  }
+}
 
 @media screen and (max-width: 425px) {
   .bt-trilhas {
